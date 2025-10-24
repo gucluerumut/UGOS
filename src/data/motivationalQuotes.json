@@ -1,0 +1,105 @@
+{
+  "quotes": [
+    {
+      "id": 1,
+      "text": "Başarı, hazırlık ile fırsatın buluştuğu andır.",
+      "author": "Seneca",
+      "category": "başarı",
+      "language": "tr"
+    },
+    {
+      "id": 2,
+      "text": "Hayatta en büyük zafer, her düştüğünde ayağa kalkmaktır.",
+      "author": "Nelson Mandela",
+      "category": "azim",
+      "language": "tr"
+    },
+    {
+      "id": 3,
+      "text": "Geleceği tahmin etmenin en iyi yolu onu yaratmaktır.",
+      "author": "Peter Drucker",
+      "category": "gelecek",
+      "language": "tr"
+    },
+    {
+      "id": 4,
+      "text": "Başarısızlık sadece yeniden başlamak için bir fırsattır, bu sefer daha akıllıca.",
+      "author": "Henry Ford",
+      "category": "başarısızlık",
+      "language": "tr"
+    },
+    {
+      "id": 5,
+      "text": "Hayallerinizi gerçekleştirmek için önce uyanmanız gerekir.",
+      "author": "Josiah Gilbert Holland",
+      "category": "hayaller",
+      "language": "tr"
+    },
+    {
+      "id": 6,
+      "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+      "author": "Winston Churchill",
+      "category": "success",
+      "language": "en"
+    },
+    {
+      "id": 7,
+      "text": "The only way to do great work is to love what you do.",
+      "author": "Steve Jobs",
+      "category": "work",
+      "language": "en"
+    },
+    {
+      "id": 8,
+      "text": "Büyük işler yapmak için tek yol, yaptığınız işi sevmektir.",
+      "author": "Steve Jobs",
+      "category": "iş",
+      "language": "tr"
+    },
+    {
+      "id": 9,
+      "text": "Değişim acı verebilir, ama değişmemek daha da acı vericidir.",
+      "author": "Tony Robbins",
+      "category": "değişim",
+      "language": "tr"
+    },
+    {
+      "id": 10,
+      "text": "Kendinize inanın ve ne yapabileceğinizin sınırı olmaz.",
+      "author": "Norman Vincent Peale",
+      "category": "özgüven",
+      "language": "tr"
+    }
+  ],
+  "dailyRotation": {
+    "enabled": true,
+    "rotationInterval": "daily",
+    "lastRotationDate": null,
+    "currentQuoteIndex": 0
+  },
+  "categories": [
+    "başarı",
+    "azim",
+    "gelecek",
+    "başarısızlık",
+    "hayaller",
+    "success",
+    "work",
+    "iş",
+    "değişim",
+    "özgüven",
+    "motivasyon",
+    "zaman",
+    "hedefler",
+    "gelişim",
+    "potansiyel",
+    "risk",
+    "inanç",
+    "düşünce",
+    "hayat",
+    "yatırım",
+    "kendini tanıma",
+    "eylem",
+    "inovasyon"
+  ]
+}

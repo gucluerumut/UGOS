@@ -1,0 +1,71 @@
+{
+  "name": "UGOS - Unified Goal Organization System",
+  "short_name": "UGOS",
+  "description": "Kişisel gelişim ve hedef takip uygulaması",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#16213e",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "tr",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "lifestyle", "health"],
+  "screenshots": [
+    {
+      "src": "/screenshots/desktop.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/screenshots/mobile.png",
+      "sizes": "375x667",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Görevler",
+      "short_name": "Tasks",
+      "description": "Görev yönetimi sayfasını aç",
+      "url": "/?tab=tasks",
+      "icons": [{ "src": "/icons/tasks.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Odaklanma",
+      "short_name": "Focus",
+      "description": "Pomodoro timer'ı başlat",
+      "url": "/?tab=focus",
+      "icons": [{ "src": "/icons/focus.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Alışkanlıklar",
+      "short_name": "Habits",
+      "description": "Alışkanlık takibi sayfasını aç",
+      "url": "/?tab=habits",
+      "icons": [{ "src": "/icons/habits.svg", "sizes": "96x96", "type": "image/svg+xml" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
