@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Clock, Check, BookOpen, Dumbbell, Target, TrendingUp, Upload, Download, Calendar, BarChart3, Activity, Brain, Trophy, DollarSign, Lightbulb, AlertTriangle, Bell, Heart, Zap, Star } from 'lucide-react';
+import { Clock, Check, BookOpen, Dumbbell, Target, TrendingUp, Upload, Download, Calendar, BarChart3, Activity, Brain, Trophy, DollarSign, Lightbulb, AlertTriangle, Bell, Heart, Zap, Star, UploadCloud, DownloadCloud } from 'lucide-react';
 import WeatherWidget from './WeatherWidget';
 import useMotivationalQuotes from '../hooks/useMotivationalQuotes';
 
@@ -17,7 +17,9 @@ const Dashboard = ({
   exportData, 
   importData,
   exportDataByDate,
-  exportDataByRange
+  exportDataByRange,
+  onCloudBackup,
+  onCloudRestoreLatest
 }) => {
   const [exportDate, setExportDate] = useState(new Date().toISOString().split('T')[0]);
   const defaultEnd = new Date();
@@ -617,6 +619,24 @@ const Dashboard = ({
             <Download size={20} />
             Export
           </button>
+          {onCloudBackup && (
+            <button 
+              onClick={onCloudBackup} 
+              className="bg-gradient-to-r from-purple-500 to-pink-600 hover:from-purple-600 hover:to-pink-700 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-lg flex items-center gap-2"
+            >
+              <UploadCloud size={20} />
+              Buluta Yedekle
+            </button>
+          )}
+          {onCloudRestoreLatest && (
+            <button 
+              onClick={onCloudRestoreLatest} 
+              className="bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white px-6 py-3 rounded-xl font-semibold transition-all shadow-lg flex items-center gap-2"
+            >
+              <DownloadCloud size={20} />
+              Buluttan Son Yedeği Yükle
+            </button>
+          )}
           <div className="flex items-center gap-2 bg-gray-800/60 border border-gray-700 rounded-xl p-2">
             <input 
               type="date" 

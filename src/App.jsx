@@ -158,6 +158,19 @@ const PersonalTrackerApp = () => {
   }, [focusEntries, tasks, habits, workouts]);
 
   // Export/Import functions
+  // Utility: ensure a persistent deviceId for cloud backups
+  function getDeviceId() {
+    const key = 'ugos-device-id';
+    let id = localStorage.getItem(key);
+    if (!id) {
+      // Simple random ID; can be replaced with uuid later
+      id = 'dev_' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+      localStorage.setItem(key, id);
+    }
+    return id;
+  }
+
+  // Tarihe göre filtreli export
   const exportData = () => {
     const data = {
       focusEntries,
@@ -185,7 +198,45 @@ const PersonalTrackerApp = () => {
     URL.revokeObjectURL(url);
   };
 
-  // Tarihe göre filtreli export
+  // Bulut yedek için tüm verileri obje olarak topla
+  const collectAllData = () => ({
+    focusEntries,
+    tasks,
+    habits,
+    physicalNotes,
+    workouts,
+    healthData,
+    learningEntries,
+    goals,
+    transactions,
+    budgets,
+    calendarEvents,
+    meditationData,
+    sleepData,
+    bookData,
+    exportDate: new Date().toISOString()
+  });
+
+  // JSON obje ile içe aktarımı uygula (dosyasız kullanım için)
+  const applyImportedData = (data) => {
+    if (data.focusEntries) setFocusEntries(data.focusEntries);
+    if (data.tasks) setTasks(data.tasks);
+    if (data.habits) setHabits(data.habits);
+    if (data.physicalNotes) setPhysicalNotes(data.physicalNotes);
+    if (data.workouts) setWorkouts(data.workouts);
+    if (data.healthData) setHealthData(data.healthData);
+    if (data.learningEntries) setLearningEntries(data.learningEntries);
+    if (data.goals) setGoals(data.goals);
+    if (data.transactions) setTransactions(data.transactions);
+    if (data.budgets) setBudgets(data.budgets);
+    if (data.calendarEvents) setCalendarEvents(data.calendarEvents);
+    if (data.meditationData) setMeditationData(data.meditationData);
+    if (data.sleepData) setSleepData(data.sleepData);
+    if (data.bookData) setBookData(data.bookData);
+    alert('Veriler başarıyla içe aktarıldı!');
+  };
+
+  // Belirli bir tarihe göre export
   const exportDataByDate = (dateStr) => {
     if (!dateStr) {
       alert('Lütfen bir tarih seçin');
@@ -295,21 +346,7 @@ const PersonalTrackerApp = () => {
       reader.onload = (e) => {
         try {
           const data = JSON.parse(e.target.result);
-          if (data.focusEntries) setFocusEntries(data.focusEntries);
-          if (data.tasks) setTasks(data.tasks);
-          if (data.habits) setHabits(data.habits);
-          if (data.physicalNotes) setPhysicalNotes(data.physicalNotes);
-          if (data.workouts) setWorkouts(data.workouts);
-          if (data.healthData) setHealthData(data.healthData);
-          if (data.learningEntries) setLearningEntries(data.learningEntries);
-          if (data.goals) setGoals(data.goals);
-          if (data.transactions) setTransactions(data.transactions);
-          if (data.budgets) setBudgets(data.budgets);
-          if (data.calendarEvents) setCalendarEvents(data.calendarEvents);
-          if (data.meditationData) setMeditationData(data.meditationData);
-          if (data.sleepData) setSleepData(data.sleepData);
-          if (data.bookData) setBookData(data.bookData);
-          alert('Veriler başarıyla içe aktarıldı!');
+          applyImportedData(data);
         } catch (error) {
           alert('Dosya okuma hatası!');
         }
@@ -346,6 +383,9 @@ const PersonalTrackerApp = () => {
   );
 
   const renderActiveTab = () => {
+    // Geçici çözüm: Environment variable yüklenmiyor, doğrudan true yapıyoruz
+    const cloudEnabled = true; // import.meta?.env?.VITE_CLOUD_ENABLED === 'true';
+    console.log('cloudEnabled (forced):', cloudEnabled);
     switch (activeTab) {
       case 'dashboard':
         return (
@@ -364,6 +404,8 @@ const PersonalTrackerApp = () => {
             importData={importData}
             exportDataByDate={exportDataByDate}
             exportDataByRange={exportDataByRange}
+            onCloudBackup={cloudEnabled ? () => cloudBackup(collectAllData, getDeviceId()) : undefined}
+            onCloudRestoreLatest={cloudEnabled ? () => cloudRestoreLatest(applyImportedData, getDeviceId()) : undefined}
           />
         );
       case 'focus':
@@ -570,3 +612,56 @@ const PersonalTrackerApp = () => {
 };
 
 export default PersonalTrackerApp;
+
+// Cloud backup: upload current data JSON to S3 via presigned URL
+async function cloudBackup(collectAllDataFn, deviceId) {
+  try {
+    const ts = new Date().toISOString().replace(/[:.]/g, '-');
+    const key = `backups/${deviceId}/${ts}.json`;
+
+    const allData = collectAllDataFn ? collectAllDataFn() : null;
+    const payload = allData || {};
+    const blob = new Blob([JSON.stringify(payload, null, 2)], { type: 'application/json' });
+
+    const presignResp = await fetch(`/api/presign?op=put&key=${encodeURIComponent(key)}&contentType=${encodeURIComponent('application/json')}`);
+    if (!presignResp.ok) throw new Error('Presign PUT failed');
+    const { url } = await presignResp.json();
+
+    const putResp = await fetch(url, { method: 'PUT', body: blob, headers: { 'Content-Type': 'application/json' } });
+    if (!putResp.ok) throw new Error('Upload failed');
+    alert('Bulut yedekleme tamamlandı.');
+  } catch (e) {
+    console.error(e);
+    alert('Bulut yedekleme başarısız: ' + e.message);
+  }
+}
+
+// Cloud restore: fetch latest backup under deviceId and import
+async function cloudRestoreLatest(applyImportedDataFn, deviceId) {
+  try {
+    const listResp = await fetch(`/api/list?deviceId=${encodeURIComponent(deviceId)}`);
+    if (!listResp.ok) throw new Error('Listeleme başarısız');
+    const { items } = await listResp.json();
+    if (!items || items.length === 0) {
+      alert('Bulutta yedek bulunamadı.');
+      return;
+    }
+    const latest = items[0];
+
+    const presignGet = await fetch(`/api/presign?op=get&key=${encodeURIComponent(latest.key)}`);
+    if (!presignGet.ok) throw new Error('Presign GET failed');
+    const { url } = await presignGet.json();
+
+    const dataResp = await fetch(url);
+    if (!dataResp.ok) throw new Error('Yedek indirme başarısız');
+    const json = await dataResp.json();
+
+    if (applyImportedDataFn) {
+      applyImportedDataFn(json);
+    }
+    alert('Bulut geri yükleme tamamlandı.');
+  } catch (e) {
+    console.error(e);
+    alert('Bulut geri yükleme başarısız: ' + e.message);
+  }
+}
