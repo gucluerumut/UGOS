@@ -1,6 +1,6 @@
-const CACHE_NAME = 'ugos-v1.1.0';
-const STATIC_CACHE = 'ugos-static-v1.1.0';
-const DYNAMIC_CACHE = 'ugos-dynamic-v1.1.0';
+const CACHE_NAME = 'ugos-v1.2.0';
+const STATIC_CACHE = 'ugos-static-v1.2.0';
+const DYNAMIC_CACHE = 'ugos-dynamic-v1.2.0';
 
 const urlsToCache = [
   '/',
@@ -89,8 +89,7 @@ self.addEventListener('fetch', (event) => {
 // Activate event - clean up old caches
 self.addEventListener('activate', (event) => {
   console.log('Service Worker activating...');
-  const cacheWhitelist = [STATIC_CACHE, DYNAMIC_CACHE];
-  
+  const cacheWhitelist = [CACHE_NAME, STATIC_CACHE, DYNAMIC_CACHE];
   event.waitUntil(
     caches.keys().then((cacheNames) => {
       return Promise.all(

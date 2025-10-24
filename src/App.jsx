@@ -383,9 +383,9 @@ const PersonalTrackerApp = () => {
   );
 
   const renderActiveTab = () => {
-    // Geçici çözüm: Environment variable yüklenmiyor, doğrudan true yapıyoruz
-    const cloudEnabled = true; // import.meta?.env?.VITE_CLOUD_ENABLED === 'true';
-    console.log('cloudEnabled (forced):', cloudEnabled);
+    const envFlag = import.meta?.env?.VITE_CLOUD_ENABLED;
+    const cloudEnabled = envFlag ? envFlag === 'true' : true;
+    console.log('VITE_CLOUD_ENABLED:', envFlag, 'cloudEnabled:', cloudEnabled);
     switch (activeTab) {
       case 'dashboard':
         return (
