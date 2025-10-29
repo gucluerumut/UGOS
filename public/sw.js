@@ -1,13 +1,10 @@
-const CACHE_NAME = 'ugos-v1.2.0';
-const STATIC_CACHE = 'ugos-static-v1.2.0';
-const DYNAMIC_CACHE = 'ugos-dynamic-v1.2.0';
+const CACHE_NAME = 'ugos-v1.3.0';
+const STATIC_CACHE = 'ugos-static-v1.3.0';
+const DYNAMIC_CACHE = 'ugos-dynamic-v1.3.0';
 
 const urlsToCache = [
   '/',
-  '/index.html',
-  '/src/main.jsx',
-  '/src/App.jsx',
-  '/src/index.css',
+  // index.html will be network-first to avoid stale UI
   '/manifest.json',
   '/icons/icon.svg',
   '/icons/tasks.svg',
@@ -52,38 +49,46 @@ self.addEventListener('fetch', (event) => {
   const { request } = event;
   const url = new URL(request.url);
 
-  // Handle different types of requests
-  if (request.method === 'GET') {
-    // Static assets - cache first
-    if (urlsToCache.some(cachedUrl => request.url.includes(cachedUrl))) {
-      event.respondWith(
-        caches.match(request)
-          .then(response => response || fetch(request))
-          .catch(() => caches.match('/'))
-      );
-    }
-    // Dynamic content - network first with cache fallback
-    else {
-      event.respondWith(
-        fetch(request)
-          .then(response => {
-            if (response.status === 200) {
-              const responseClone = response.clone();
-              caches.open(DYNAMIC_CACHE)
-                .then(cache => {
-                  cache.put(request, responseClone);
-                  limitCacheSize(DYNAMIC_CACHE, DYNAMIC_CACHE_LIMIT);
-                });
-            }
-            return response;
-          })
-          .catch(() => {
-            return caches.match(request)
-              .then(response => response || caches.match('/'));
-          })
-      );
-    }
+  if (request.method !== 'GET') return;
+
+  // Always network-first for navigations/documents to avoid stale index.html
+  if (request.mode === 'navigate' || request.destination === 'document') {
+    event.respondWith(
+      fetch(request).catch(() => caches.match('/'))
+    );
+    return;
   }
+
+  // Cache-first for static assets under /assets/ (Vite hashed files)
+  if (url.pathname.startsWith('/assets/')) {
+    event.respondWith(
+      caches.match(request)
+        .then(response => response || fetch(request).then(res => {
+          const resClone = res.clone();
+          caches.open(STATIC_CACHE).then(cache => cache.put(request, resClone));
+          return res;
+        }))
+        .catch(() => undefined)
+    );
+    return;
+  }
+
+  // Other GET requests: network-first with cache fallback
+  event.respondWith(
+    fetch(request)
+      .then(response => {
+        if (response.status === 200) {
+          const responseClone = response.clone();
+          caches.open(DYNAMIC_CACHE)
+            .then(cache => {
+              cache.put(request, responseClone);
+              limitCacheSize(DYNAMIC_CACHE, DYNAMIC_CACHE_LIMIT);
+            });
+        }
+        return response;
+      })
+      .catch(() => caches.match(request))
+  );
 });
 
 // Activate event - clean up old caches

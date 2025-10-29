@@ -1,5 +1,7 @@
 import { useState, useEffect } from 'react';
 import motivationalQuotesData from '../data/motivationalQuotes.json';
+// Import user-provided quotes as raw text; we'll sanitize and parse
+import ugosQuotesRaw from './UGOS_Sözler.txt?raw';
 
 const useMotivationalQuotes = () => {
   const [currentQuote, setCurrentQuote] = useState(null);
@@ -12,6 +14,59 @@ const useMotivationalQuotes = () => {
       const base = motivationalQuotesData;
       const baseMaxId = base.quotes.reduce((m, q) => Math.max(m, q.id || 0), 0);
       const categories = Array.isArray(base.categories) && base.categories.length ? base.categories : ['motivasyon'];
+      // Try to parse UGOS_Sözler.txt content (expected JSON array). It may contain multiple arrays or minor syntax issues.
+      const sanitizeAndParseUgos = (raw) => {
+        if (!raw || typeof raw !== 'string') return [];
+        let content = raw.trim();
+        // Merge adjacent arrays: "]\s*\[" -> ","
+        content = content.replace(/\]\s*\[/g, ',');
+        // Remove trailing commas before closing brackets
+        content = content.replace(/,\s*\]/g, ']');
+        content = content.replace(/\[\s*,/g, '[');
+        // Ensure it starts with '[' and ends with ']'
+        if (!content.startsWith('[')) content = `[${content}`;
+        if (!content.endsWith(']')) content = `${content}]`;
+        try {
+          const parsed = JSON.parse(content);
+          return Array.isArray(parsed) ? parsed : [];
+        } catch (e) {
+          // Fallback: attempt to extract JSON objects via regex and parse individually
+          const objects = [];
+          const objRegex = /\{[\s\S]*?\}/g;
+          const matches = content.match(objRegex) || [];
+          for (const m of matches) {
+            try { objects.push(JSON.parse(m)); } catch (_) { /* skip malformed */ }
+          }
+          return objects;
+        }
+      };
+
+      const normalizeCategory = (cat) => {
+        if (!cat) return 'motivasyon';
+        const c = cat.toLowerCase();
+        if (c.includes('islam')) return 'islam';
+        if (c.includes('sufi') || c.includes('tasavvuf')) return 'islam';
+        if (c.includes('felsefe') || c.includes('philosophy')) return 'felsefe';
+        return cat;
+      };
+
+      const ugosParsed = sanitizeAndParseUgos(ugosQuotesRaw);
+      const ugosNormalized = ugosParsed.map((q, i) => {
+        const originalText = (q.text && String(q.text).trim()) || '';
+        const turkishText = (q.textTr && String(q.textTr).trim()) || '';
+        const displayText = turkishText || originalText;
+        return {
+          id: baseMaxId + i + 1,
+          // default display text keeps existing behavior
+          text: displayText,
+          // preserve bilingual fields for UI toggle
+          originalText,
+          turkishText,
+          author: q.author || 'Anonim',
+          category: normalizeCategory(q.category),
+          language: (turkishText ? 'tr' : (q.language || 'tr'))
+        };
+      }).filter(q => q.text && q.author);
       const templates = [
         "Bugün bir adım at; yarın iki adım daha.",
         "Disiplin, hedef ile başarı arasındaki köprüdür.",
@@ -25,9 +80,11 @@ const useMotivationalQuotes = () => {
         "Bugün yaptığın seçimler yarınki hayatını belirler."
       ];
 
-      const needCount = Math.max(0, 100 - base.quotes.length);
+      // Merge base quotes with UGOS quotes first
+      let mergedQuotes = [...base.quotes, ...ugosNormalized];
+      const needCount = Math.max(0, 100 - mergedQuotes.length);
       const syntheticQuotes = Array.from({ length: needCount }).map((_, i) => ({
-        id: baseMaxId + i + 1,
+        id: baseMaxId + ugosNormalized.length + i + 1,
         text: templates[i % templates.length],
         author: "UGOS",
         category: categories[i % categories.length],
@@ -35,8 +92,12 @@ const useMotivationalQuotes = () => {
       }));
 
       if (needCount > 0) {
-        setQuotesData({ ...base, quotes: [...base.quotes, ...syntheticQuotes] });
+        mergedQuotes = [...mergedQuotes, ...syntheticQuotes];
       }
+
+      // Ensure categories include our normalized tags and external source tag
+      const mergedCategories = Array.from(new Set([...(base.categories || []), 'islam', 'felsefe', 'zenquotes']));
+      setQuotesData({ ...base, quotes: mergedQuotes, categories: mergedCategories });
     } catch (e) {
       // Fallback to base data on any error
       setQuotesData(motivationalQuotesData);
@@ -54,12 +115,11 @@ const useMotivationalQuotes = () => {
     return new Date().getHours();
   };
 
-  // Zaman dilimini belirle (sabah, öğle, akşam)
+  // 6 saatlik zaman dilimi belirle (0: 00-06, 1: 06-12, 2: 12-18, 3: 18-24)
   const getTimeSlot = () => {
     const hour = getCurrentHour();
-    if (hour >= 6 && hour < 12) return 'morning';
-    if (hour >= 12 && hour < 18) return 'afternoon';
-    return 'evening';
+    const slotIndex = Math.floor(hour / 6); // 0..3
+    return `slot-${slotIndex}`; // string olarak sakla
   };
 
   // Günlük rotasyon için index hesapla
@@ -70,19 +130,55 @@ const useMotivationalQuotes = () => {
     return dayOfYear % quotesData.quotes.length;
   };
 
-  // Zaman bazlı index hesapla (günde 3 farklı söz)
+  // Zaman bazlı index hesapla (günde 4 farklı söz, 6 saatlik periyot)
   const calculateTimeBasedIndex = () => {
     const today = new Date();
     const startOfYear = new Date(today.getFullYear(), 0, 1);
     const dayOfYear = Math.floor((today - startOfYear) / (24 * 60 * 60 * 1000)) + 1;
     const timeSlot = getTimeSlot();
-    
-    let timeMultiplier = 0;
-    if (timeSlot === 'morning') timeMultiplier = 0;
-    else if (timeSlot === 'afternoon') timeMultiplier = 1;
-    else timeMultiplier = 2;
-    
-    return (dayOfYear * 3 + timeMultiplier) % quotesData.quotes.length;
+    const slotIndex = Number(timeSlot.replace('slot-','')) || 0; // 0..3
+    // Gün*4 + slotIndex ile deterministik ama gün içinde periyodik değişen index
+    return (dayOfYear * 4 + slotIndex) % quotesData.quotes.length;
+  };
+
+  // ZenQuotes'tan söz al (slot bazlı cache ile, CORS destekli)
+  const getZenQuoteCached = async () => {
+    const todayDate = getTodayDate();
+    const currentTimeSlot = getTimeSlot();
+    const cacheKey = `zenQuote_${todayDate}_${currentTimeSlot}`;
+    try {
+      const cached = localStorage.getItem(cacheKey);
+      if (cached) {
+        const parsed = JSON.parse(cached);
+        if (parsed && parsed.quote && parsed.date === todayDate && parsed.timeSlot === currentTimeSlot) {
+          return parsed.quote;
+        }
+      }
+    } catch (_) { /* ignore cache errors */ }
+
+    try {
+      const res = await fetch('https://zenquotes.io/api/random', { cache: 'no-store' });
+      const data = await res.json();
+      const item = Array.isArray(data) ? data[0] : data;
+      const q = item?.q || '';
+      const a = item?.a || 'Anonim';
+      const remoteQuote = {
+        id: Date.now(),
+        text: q,
+        originalText: q,
+        turkishText: '',
+        author: a,
+        category: 'zenquotes',
+        language: 'en'
+      };
+      try {
+        localStorage.setItem(cacheKey, JSON.stringify({ date: todayDate, timeSlot: currentTimeSlot, quote: remoteQuote }));
+      } catch (_) { /* ignore */ }
+      return remoteQuote;
+    } catch (e) {
+      // Ağ hatası veya rate-limit durumunda fallback olarak null dön
+      return null;
+    }
   };
 
   // Rastgele söz seç
@@ -101,7 +197,7 @@ const useMotivationalQuotes = () => {
     return filteredQuotes[randomIndex];
   };
 
-  // Günlük söz al (zaman bazlı otomatik rotasyon ile)
+  // Günlük söz al (6 saatlik otomatik rotasyon ile)
   const getDailyQuote = () => {
     const todayDate = getTodayDate();
     const currentTimeSlot = getTimeSlot();
@@ -209,32 +305,54 @@ const useMotivationalQuotes = () => {
   // Component mount olduğunda günlük söz yükle ve otomatik kontrol başlat
   useEffect(() => {
     const loadDailyQuote = () => {
+      // Asenkron hibrid yükleme: tek slot Zen, çift slot yerel
       setIsLoading(true);
-      try {
-        const dailyQuote = getDailyQuote();
-        setCurrentQuote(dailyQuote);
-      } catch (error) {
-        console.error('Error loading daily quote:', error);
-        setCurrentQuote(getRandomQuote());
-      } finally {
+      (async () => {
+        const todayDate = getTodayDate();
+        const currentTimeSlot = getTimeSlot();
+        const slotIndex = Number(currentTimeSlot.replace('slot-','')) || 0;
+        let newQuote = null;
+        if (slotIndex % 2 === 1) {
+          newQuote = await getZenQuoteCached();
+        }
+        if (!newQuote) {
+          const idx = calculateTimeBasedIndex();
+          newQuote = quotesData.quotes[idx];
+        }
+        localStorage.setItem('dailyQuote', JSON.stringify({ date: todayDate, timeSlot: currentTimeSlot, quote: newQuote }));
+        setCurrentQuote(newQuote);
         setIsLoading(false);
-      }
+      })();
     };
 
     // İlk yükleme
     loadDailyQuote();
 
-    // Her 5 dakikada bir zaman dilimi değişikliğini kontrol et
+    // Her 5 dakikada bir 6 saatlik zaman dilimi değişikliğini kontrol et
     const timeCheckInterval = setInterval(() => {
       const currentQuoteData = localStorage.getItem('dailyQuote');
       if (currentQuoteData) {
         const parsed = JSON.parse(currentQuoteData);
         const currentTimeSlot = getTimeSlot();
         
-        // Eğer zaman dilimi değiştiyse yeni söz yükle
+        // Eğer zaman dilimi (6 saatlik slot) değiştiyse yeni söz yükle
         if (parsed.timeSlot !== currentTimeSlot) {
-          const newQuote = getDailyQuote();
-          setCurrentQuote(newQuote);
+          // Slot değişti: hibrid güncelleme
+          setIsLoading(true);
+          (async () => {
+            const slotIndex = Number(currentTimeSlot.replace('slot-','')) || 0;
+            let newQuote = null;
+            if (slotIndex % 2 === 1) {
+              newQuote = await getZenQuoteCached();
+            }
+            if (!newQuote) {
+              const idx = calculateTimeBasedIndex();
+              newQuote = quotesData.quotes[idx];
+            }
+            localStorage.setItem('dailyQuote', JSON.stringify({ date: getTodayDate(), timeSlot: currentTimeSlot, quote: newQuote }));
+            setCurrentQuote(newQuote);
+            setIsLoading(false);
+          })();
         }
       }
     }, 5 * 60 * 1000); // 5 dakika
@@ -266,7 +384,7 @@ const useMotivationalQuotes = () => {
     
     // Manual quote setting
     setCurrentQuote,
-    
+
     // Available categories
     categories: quotesData.categories
   };

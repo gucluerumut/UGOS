@@ -70,6 +70,175 @@
       "category": "özgüven",
       "language": "tr"
     }
+    ,
+    {
+      "id": 11,
+      "text": "İlim maldan üstündür; ilim seni korur, malı sen korursun.",
+      "author": "İmam Ali",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 12,
+      "text": "İlim bir nurdur; günaha batmış kalbe yerleşmez.",
+      "author": "İmam Şâfiî",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 13,
+      "text": "Amelsiz ilim, dalâlete götüren bir yük gibidir.",
+      "author": "İmam Gazâli",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 14,
+      "text": "Akıl erdemlerin önderidir; onu eğitmek bütün erdemleri diriltir.",
+      "author": "İbn Sina",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 15,
+      "text": "Dünle beraber gitti cancağızım; bugün yeni şeyler söylemek lazım.",
+      "author": "Mevlânâ",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 16,
+      "text": "Sevelim, sevilelim; dünya kimseye kalmaz.",
+      "author": "Yunus Emre",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 17,
+      "text": "Sen düşüncenin çocuğusun; düşüncen neyse sen osun.",
+      "author": "İbn Arabî",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 18,
+      "text": "Nefsini terbiye et; kalbin saflaştıkça hakikat parıldar.",
+      "author": "Abdulkadir Geylânî",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 19,
+      "text": "Kalp amel ile güçlenir; ihlâs, amelin ruhudur.",
+      "author": "Hasan-ı Basrî",
+      "category": "islam",
+      "language": "tr"
+    },
+    {
+      "id": 20,
+      "text": "Sorgulanmamış hayat yaşanmaya değmez.",
+      "author": "Sokrates",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 21,
+      "text": "Biz tekrar ettiğimiz şeyiz; mükemmeliyet bir eylem değil, alışkanlıktır.",
+      "author": "Aristoteles",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 22,
+      "text": "Düşünüyorum, öyleyse varım.",
+      "author": "Descartes",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 23,
+      "text": "Özgürlük, zorunluluğu anlamaktır.",
+      "author": "Spinoza",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 24,
+      "text": "Aklını kullanma cesareti göster.",
+      "author": "Immanuel Kant",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 25,
+      "text": "Beni öldürmeyen şey beni güçlendirir.",
+      "author": "Friedrich Nietzsche",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 26,
+      "text": "Ne kadar yavaş gittiğin önemli değil; durmadığın sürece ilerlersin.",
+      "author": "Konfüçyüs",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 27,
+      "text": "Ruhun, düşüncelerinin rengini alır.",
+      "author": "Marcus Aurelius",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 28,
+      "text": "Seni rahatsız eden şeyler değil, onlara dair düşüncelerin seni rahatsız eder.",
+      "author": "Epiktetos",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 29,
+      "text": "Bin millik yol tek bir adımla başlar.",
+      "author": "Lao Tzu",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 30,
+      "text": "Hayat geriye doğru anlaşılır; ama ileriye doğru yaşanır.",
+      "author": "Søren Kierkegaard",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 31,
+      "text": "Anlamak, yargılamanın yerini tutmaz; ama ona eşlik eder.",
+      "author": "Hannah Arendt",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 32,
+      "text": "Özgürlük, sürekli bir projedir; sorumlulukla anlam kazanır.",
+      "author": "Simone de Beauvoir",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 33,
+      "text": "İyi yaşam, sevgi ve bilgiye dayanan bir hayattır.",
+      "author": "Bertrand Russell",
+      "category": "felsefe",
+      "language": "tr"
+    },
+    {
+      "id": 34,
+      "text": "Bilge kişi, bildiğini bilir; bilmediğini de bilir.",
+      "author": "Platon",
+      "category": "felsefe",
+      "language": "tr"
+    }
   ],
   "dailyRotation": {
     "enabled": true,
@@ -100,6 +269,8 @@
     "yatırım",
     "kendini tanıma",
     "eylem",
-    "inovasyon"
+    "inovasyon",
+    "islam",
+    "felsefe"
   ]
 }

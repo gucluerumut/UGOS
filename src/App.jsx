@@ -549,10 +549,17 @@ const PersonalTrackerApp = () => {
               <input
                 type="password"
                 value={pinInput}
-                onChange={(e) => setPinInput(e.target.value)}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  // Sadece rakam ve maksimum 6 karakter
+                  if (/^\d{0,6}$/.test(value)) {
+                    setPinInput(value);
+                  }
+                }}
                 onKeyDown={(e) => { if (e.key === 'Enter') handlePinSubmit(); }}
-                className="w-full px-3 py-2 rounded-lg bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500"
-                placeholder="PIN"
+                className="w-full px-3 py-2 rounded-lg bg-gray-700 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500 text-center text-lg tracking-widest"
+                placeholder="••••••"
+                maxLength="6"
               />
               {pinError && <div className="text-red-400 text-sm mt-2">{pinError}</div>}
               <button

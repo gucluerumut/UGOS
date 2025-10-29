@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import useMotivationalQuotes from '../hooks/useMotivationalQuotes';
 import { 
   Quote, 
   Trophy, 
@@ -31,50 +32,17 @@ const MotivationTools = ({
   const [currentQuote, setCurrentQuote] = useState(null);
   const [showCelebration, setShowCelebration] = useState(false);
   const [celebrationMessage, setCelebrationMessage] = useState('');
+  const [quoteLang, setQuoteLang] = useState('tr'); // 'tr' | 'original'
 
-  // Günlük alıntılar koleksiyonu
-  const inspirationalQuotes = [
-    {
-      text: "Başarı, küçük çabaların günlük olarak tekrarlanmasıdır.",
-      author: "Robert Collier",
-      category: "Başarı"
-    },
-    {
-      text: "Hayallerinizi gerçekleştirmek için önce uyanmanız gerekir.",
-      author: "Josiah Gilbert Holland",
-      category: "Hayaller"
-    },
-    {
-      text: "Mükemmellik bir alışkanlıktır, tek seferlik bir eylem değil.",
-      author: "Aristoteles",
-      category: "Mükemmellik"
-    },
-    {
-      text: "Başarısızlık sadece yeniden başlamak için bir fırsattır.",
-      author: "Henry Ford",
-      category: "Başarısızlık"
-    },
-    {
-      text: "Büyük işler yapmak için büyük riskler almak gerekir.",
-      author: "Herakleitos",
-      category: "Risk"
-    },
-    {
-      text: "Değişim acı verir, ama değişmemek daha da acı verir.",
-      author: "Tony Robbins",
-      category: "Değişim"
-    },
-    {
-      text: "Kendinize inanın ve ne istediğinizi bilin. Sonra çalışın.",
-      author: "Russell Simmons",
-      category: "İnanç"
-    },
-    {
-      text: "Başarı, hazırlık ile fırsatın buluştuğu andır.",
-      author: "Seneca",
-      category: "Hazırlık"
+  // Hook: Günün Sözü (6 saatlik rotasyon)
+  const { currentQuote: rotatingQuote, getDailyQuote: getDailyQuoteFromHook, getRandomQuote, isLoading: quotesLoading } = useMotivationalQuotes();
+
+  // Hook’tan gelen quote’u ekrana taşı
+  useEffect(() => {
+    if (rotatingQuote && !quotesLoading) {
+      setCurrentQuote(rotatingQuote);
     }
-  ];
+  }, [rotatingQuote, quotesLoading]);
 
   // İlerleme görselleştirme seviyeleri
   const visualizationLevels = {
@@ -96,25 +64,20 @@ const MotivationTools = ({
     ]
   };
 
-  // Günlük alıntı getir
+  // Günlük alıntı getir (hook ile, 6 saatlik rotasyon)
   const getDailyQuote = () => {
     const today = new Date().toDateString();
     const savedQuote = motivationData.dailyQuotes.find(q => q.date === today);
-    
     if (savedQuote) {
       return savedQuote.quote;
     }
-    
-    // Yeni günlük alıntı seç
-    const randomQuote = inspirationalQuotes[Math.floor(Math.random() * inspirationalQuotes.length)];
-    const newQuote = { date: today, quote: randomQuote };
-    
+    const quoteFromHook = getDailyQuoteFromHook();
+    const newQuote = { date: today, quote: quoteFromHook };
     setMotivationData(prev => ({
       ...prev,
       dailyQuotes: [...prev.dailyQuotes.filter(q => q.date !== today), newQuote]
     }));
-    
-    return randomQuote;
+    return quoteFromHook;
   };
 
   // Başarı kutlaması tetikle
@@ -259,9 +222,26 @@ const MotivationTools = ({
             {/* Bugünün Alıntısı */}
             {currentQuote && (
               <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 rounded-2xl text-center">
+                <div className="flex justify-center gap-2 mb-4">
+                  <button
+                    onClick={() => setQuoteLang('original')}
+                    className={`px-3 py-1 rounded-full text-sm ${quoteLang === 'original' ? 'bg-white text-black' : 'bg-white bg-opacity-20 text-white hover:bg-opacity-30'}`}
+                  >Orijinal</button>
+                  <button
+                    onClick={() => setQuoteLang('tr')}
+                    className={`px-3 py-1 rounded-full text-sm ${quoteLang === 'tr' ? 'bg-white text-black' : 'bg-white bg-opacity-20 text-white hover:bg-opacity-30'}`}
+                  >Türkçe</button>
+                </div>
                 <Quote size={48} className="text-white mx-auto mb-4" />
                 <blockquote className="text-2xl font-medium text-white mb-4">
-                  "{currentQuote.text}"
+                  {
+                    (() => {
+                      const original = currentQuote.originalText || (currentQuote.language === 'en' ? currentQuote.text : '');
+                      const turkish = currentQuote.turkishText || (currentQuote.language === 'tr' ? currentQuote.text : '');
+                      const display = quoteLang === 'original' ? (original || currentQuote.text) : (turkish || currentQuote.text);
+                      return `"${display}"`;
+                    })()
+                  }
                 </blockquote>
                 <cite className="text-blue-200 text-lg">— {currentQuote.author}</cite>
                 <div className="mt-4">
@@ -291,13 +271,13 @@ const MotivationTools = ({
               </div>
             </div>
 
-            {/* Yeni Alıntı Butonu */}
+            {/* Söz Değiştirme Butonu (aşağıda) */}
             <div className="text-center">
               <button
-                onClick={() => setCurrentQuote(getDailyQuote())}
+                onClick={() => setCurrentQuote(getRandomQuote())}
                 className="bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition-colors"
               >
-                Yeni Alıntı Al
+                Sözü Değiştir
               </button>
             </div>
           </div>

@@ -167,6 +167,8 @@ const Dashboard = ({
 
   // Motivasyon Sözleri Hook'u
   const { getDailyQuote, getRandomQuote, getQuotesByCategory } = useMotivationalQuotes();
+  // Günün sözü için durum yönetimi (butonla değiştirilebilsin)
+  const [motivationalQuote, setMotivationalQuote] = useState(getDailyQuote());
   
   // Kategori bazlı icon mapping
   const getCategoryIcon = (category) => {
@@ -596,7 +598,7 @@ const Dashboard = ({
   const deadlineStats = getDeadlineStats();
 
   // Motivasyon Mesajları Verileri
-  const motivationalQuote = getDailyQuote();
+  // Günün sözü, yukarıda state olarak tanımlandı
   const habitStreaks = getHabitStreaks();
   const motivationalStats = getMotivationalStats();
 
@@ -733,6 +735,14 @@ const Dashboard = ({
                 "{motivationalQuote.text}"
               </blockquote>
               <div className="text-emerald-200 text-sm">— {motivationalQuote.author}</div>
+              <div className="mt-4">
+                <button
+                  onClick={() => setMotivationalQuote(getRandomQuote())}
+                  className="bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded-lg text-sm font-medium transition-colors"
+                >
+                  Sözü Değiştir
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -1338,6 +1348,14 @@ const Dashboard = ({
                     "{motivationalQuote.text}"
                   </blockquote>
                   <cite className="text-pink-400 text-sm font-medium">— {motivationalQuote.author}</cite>
+                  <div className="mt-3">
+                    <button
+                      onClick={() => setMotivationalQuote(getRandomQuote())}
+                      className="bg-pink-600 hover:bg-pink-700 text-white px-3 py-2 rounded-lg text-xs font-medium transition-colors"
+                    >
+                      Sözü Değiştir
+                    </button>
+                  </div>
                 </div>
               </div>
             </div>

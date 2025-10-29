@@ -1,0 +1,2422 @@
+[
+  {
+    "id": 1,
+    "text": "Silence is the language of God, all else is poor translation.",
+    "textTr": "Sessizlik Allah’ın dilidir, geri kalan her şey kötü bir çeviridir.",
+    "author": "Mevlânâ Celaleddin Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 2,
+    "text": "The wound is the place where the Light enters you.",
+    "textTr": "Yara, ışığın sana girdiği yerdir.",
+    "author": "Mevlânâ Celaleddin Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 3,
+    "text": "What you seek is seeking you.",
+    "textTr": "Senin aradığın da aynı şekilde seni arıyor.",
+    "author": "Mevlânâ Celaleddin Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 4,
+    "text": "La tahzen, innallaha ma’ana.",
+    "textTr": "Üzülme, Allah bizimle beraberdir.",
+    "author": "İmam Ali (ra)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 5,
+    "text": "Man arafa nafsahu, fakad arafa rabbahu.",
+    "textTr": "Nefsini bilen Rabbini bilir.",
+    "author": "İmam Ali (ra)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 6,
+    "text": "Your remedy is within you, but you do not sense it. Your sickness is from you, but you do not perceive it.",
+    "textTr": "İlacın kendi içinde, fakat farkında değilsin. Hastalığın da kendindendir, ama görmüyorsun.",
+    "author": "Hz. Ali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 7,
+    "text": "If you are irritated by every rub, how will you be polished?",
+    "textTr": "Her sürtünmede rahatsız oluyorsan, nasıl parlayacaksın?",
+    "author": "Mevlânâ Celaleddin Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 8,
+    "text": "Knowledge without action is insanity, and action without knowledge is vanity.",
+    "textTr": "Amelsiz ilim deliliktir; ilimsiz amel ise boşunadır.",
+    "author": "İmam Gazali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (translated to English)"
+  },
+  {
+    "id": 9,
+    "text": "Al-‘ilm bila ‘amal kesh-shajar bila thamar.",
+    "textTr": "Amelsiz ilim, meyvesiz ağaca benzer.",
+    "author": "İmam Gazali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 10,
+    "text": "The more knowledge you have, the greater your fear of God.",
+    "textTr": "İlim arttıkça Allah korkusu artar.",
+    "author": "İmam Gazali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 11,
+    "text": "He who knows himself is truly free.",
+    "textTr": "Nefsini bilen gerçekten özgürdür.",
+    "author": "İbn Arabi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 12,
+    "text": "Between the servant and God there is no veil. It is only the servant's own ego that creates the barrier.",
+    "textTr": "Kul ile Allah arasında perde yoktur; perdeyi oluşturan kulun nefsidir.",
+    "author": "İbn Arabi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 13,
+    "text": "Let silence take you to the core of life.",
+    "textTr": "Sessizlik seni hayatın özüne götürsün.",
+    "author": "Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 14,
+    "text": "Bir gönüle girmek, Kâbe yapmaktan üstündür.",
+    "textTr": "Bir gönle girmek, Kâbe inşa etmekten daha değerlidir.",
+    "author": "Yunus Emre",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 15,
+    "text": "Beni bende demen, bende değilim; bir ben vardır bende, benden içeri.",
+    "textTr": "Beni ben sanma; ben değilim. İçimde benden başka bir ben vardır.",
+    "author": "Yunus Emre",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 16,
+    "text": "Whosoever knows himself knows his Lord. Whosoever knows his Lord becomes silent.",
+    "textTr": "Kendini bilen Rabbini bilir. Rabbini bilen susar.",
+    "author": "Seyyid Burhaneddin",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 17,
+    "text": "Love is the astrolabe of God’s mysteries.",
+    "textTr": "Aşk, Allah’ın sırlarının usturlabıdır.",
+    "author": "Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 18,
+    "text": "Derviş odur ki, nefsini bilip Hakk'a teslim olandır.",
+    "textTr": "Gerçek derviş, nefsini bilen ve Hakk’a teslim olandır.",
+    "author": "Abdülkadir Geylani",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 19,
+    "text": "He who has no light in his heart cannot find the way even though the sun shines.",
+    "textTr": "Kalbinde ışık olmayan, güneş parıl parıl parıldasa da yolu bulamaz.",
+    "author": "İmam Rabbani",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Persian (English translation)"
+  },
+  {
+    "id": 20,
+    "text": "If you wish to be pure, purify your intentions.",
+    "textTr": "Temiz olmak istiyorsan, niyetlerini temizle.",
+    "author": "İmam Rabbani",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Persian (English translation)"
+  }
+[
+  {
+    "id": 21,
+    "text": "Ana al-abdi sirrun min asrari.",
+    "textTr": "Kul benim sırlarımdan bir sırdır.",
+    "author": "İbn Arabi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 22,
+    "text": "He who is not grateful for small things will not be grateful for large things.",
+    "textTr": "Küçük şeylere şükretmeyen, büyük nimetlere de şükretmez.",
+    "author": "İmam Ali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 23,
+    "text": "Fakr is my pride.",
+    "textTr": "Fakirlik (dünyevi ihtiyaçsızlık) benim iftiharımdır.",
+    "author": "Hz. Muhammed (sav)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 24,
+    "text": "The heart is the dwelling of God; purify it from all others.",
+    "textTr": "Kalp Allah’ın evidir; onu başkalarından temizle.",
+    "author": "Şems-i Tebrizi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Persian (English translation)"
+  },
+  {
+    "id": 25,
+    "text": "There is a voice that doesn’t use words. Listen.",
+    "textTr": "Kelime kullanmayan bir ses vardır. Dinle.",
+    "author": "Mevlânâ Celaleddin Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 26,
+    "text": "Al-'aqlu siraj al-haqq.",
+    "textTr": "Akıl, hakikatin kandilidir.",
+    "author": "İbn Sina (Avicenna)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 27,
+    "text": "The soul is like a mirror; when it is cleansed, it reflects the light of God.",
+    "textTr": "Ruh bir aynaya benzer; temizlendiğinde Allah’ın nurunu yansıtır.",
+    "author": "İmam Gazali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 28,
+    "text": "Aşksız insan cesede benzer; cesedin ruhu yoktur.",
+    "textTr": "Love-less human is like a corpse, without spirit.",
+    "author": "Mevlânâ",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 29,
+    "text": "Do not seek God outside; He is closer to you than your jugular vein.",
+    "textTr": "Allah'ı dışarıda arama; O sana şah damarından daha yakındır.",
+    "author": "Kur'an (Kaf Suresi 16. Ayet)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 30,
+    "text": "The world is like a shadow: if you chase it, it runs; if you turn your back to it, it follows.",
+    "textTr": "Dünya gölge gibidir; kovalarsan kaçar, arkanı dönersen seni takip eder.",
+    "author": "İmam Şafii",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 31,
+    "text": "Tasavvuf nedir? Nefsi yok etmek, Hakk’ı var etmektir.",
+    "textTr": "What is Sufism? It is destroying the ego and letting truth prevail.",
+    "author": "Cüneyd-i Bağdadi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 32,
+    "text": "Hearts rust just as iron rusts, and their polish is the remembrance of God.",
+    "textTr": "Kalpler de demir gibi pas tutar; onların cilası Allah'ı zikretmektir.",
+    "author": "Hz. Muhammed (sav)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 33,
+    "text": "Bir gönlü kırmak yetmiş defa Kabe'yi yıkmaktan beterdir.",
+    "textTr": "To break one heart is worse than demolishing the Kaaba seventy times.",
+    "author": "Hz. Ali’ye nispet edilir",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 34,
+    "text": "If your knowledge does not prevent you from sin, then there is no benefit in your knowledge.",
+    "textTr": "İlmin seni günahtan alıkoymuyorsa, o ilimde hayır yoktur.",
+    "author": "İmam Gazali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 35,
+    "text": "Aşk imandır; imanı olmayanın aşkı da yoktur.",
+    "textTr": "Love is faith; he who has no faith has no love.",
+    "author": "Şems-i Tebrizi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 36,
+    "text": "The ego is the veil between man and God.",
+    "textTr": "Nefs, insanla Allah arasında perdedir.",
+    "author": "İbn Arabi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 37,
+    "text": "When the soul lies down in that grass, the world is too full to talk about.",
+    "textTr": "Ruh o çimenlere uzandığında, dünya konuşulamayacak kadar doludur.",
+    "author": "Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 38,
+    "text": "Enel Hak.",
+    "textTr": "Ben Hakk'ım.",
+    "author": "Hallac-ı Mansur",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 39,
+    "text": "He who sees with the light of God sees everything clearly.",
+    "textTr": "Allah'ın nuruyla gören, her şeyi apaçık görür.",
+    "author": "İmam Rabbani",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Persian (English translation)"
+  },
+  {
+    "id": 40,
+    "text": "Söz ok gibidir; ağızdan çıkmadan önce sen ona hakimsin, çıktıktan sonra o sana hakim olur.",
+    "textTr": "Words are like arrows; before they leave your mouth, you control them. After that, they control you.",
+    "author": "İmam Ali",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (translated to Turkish)"
+  },
+  {
+    "id": 41,
+    "text": "The lover’s heartbeat is the music of God.",
+    "textTr": "Âşığın kalp atışı Allah’ın musikisidir.",
+    "author": "Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 42,
+    "text": "True poverty is being independent of all but God.",
+    "textTr": "Gerçek fakirlik, Allah’tan başkasına muhtaç olmamaktır.",
+    "author": "Abdülkadir Geylani",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 43,
+    "text": "Ben gelmedim dava için; benim işim sevi için.",
+    "textTr": "I have not come for argument; my mission is love.",
+    "author": "Yunus Emre",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 44,
+    "text": "The heart is a garden. What you plant will grow.",
+    "textTr": "Kalp bir bahçedir; ne ekersen o biter.",
+    "author": "Rumi",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "English (translated from Persian)"
+  },
+  {
+    "id": 45,
+    "text": "İnsanlar uykudadır, ölünce uyanırlar.",
+    "textTr": "People are asleep; when they die, they awaken.",
+    "author": "Hz. Muhammed (sav)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 46,
+    "text": "He who purifies his soul succeeds.",
+    "textTr": "Nefsini arındıran kurtuluşa erer.",
+    "author": "Kur'an (Şems Suresi 9. Ayet)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic"
+  },
+  {
+    "id": 47,
+    "text": "Aşk, insanı diri diri toprağa gömer; sonra yeniden doğurur.",
+    "textTr": "Love buries a person alive, then resurrects him.",
+    "author": "Mevlânâ",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  },
+  {
+    "id": 48,
+    "text": "God is beautiful and loves beauty.",
+    "textTr": "Allah güzeldir, güzelliği sever.",
+    "author": "Hz. Muhammed (sav)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 49,
+    "text": "The best among you is the one whose manners are the best.",
+    "textTr": "Sizin en hayırlınız, ahlakı en güzel olanınızdır.",
+    "author": "Hz. Muhammed (sav)",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Arabic (English translation)"
+  },
+  {
+    "id": 50,
+    "text": "Allah ile olduktan sonra ölüm de hoştur, ömür de.",
+    "textTr": "Once you are with God, both life and death are beautiful.",
+    "author": "Mevlânâ",
+    "category": "İslam Alimleri & Sufizm",
+    "language": "Turkish"
+  }
+]
+  {
+    "id": 51,
+    "text": "The unexamined life is not worth living.",
+    "textTr": "Sorgulanmamış bir hayat yaşamaya değmez.",
+    "author": "Socrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 52,
+    "text": "I know that I know nothing.",
+    "textTr": "Bildiğim tek şey hiçbir şey bilmediğimdir.",
+    "author": "Socrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 53,
+    "text": "Be kind, for everyone you meet is fighting a hard battle.",
+    "textTr": "Nazik ol; çünkü karşılaştığın herkes zorlu bir mücadele veriyor.",
+    "author": "Plato",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 54,
+    "text": "Courage is knowing what not to fear.",
+    "textTr": "Cesaret, neden korkulmayacağını bilmektir.",
+    "author": "Plato",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 55,
+    "text": "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "textTr": "Biz sürekli yaptıklarımızız. O halde mükemmellik bir eylem değil, bir alışkanlıktır.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 56,
+    "text": "Happiness depends upon ourselves.",
+    "textTr": "Mutluluk bize bağlıdır.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 57,
+    "text": "He who conquers himself is the mightiest warrior.",
+    "textTr": "Kendine hükmeden, en güçlü savaşçıdır.",
+    "author": "Confucius",
+    "category": "Antik Filozoflar",
+    "language": "Chinese (English translation)"
+  },
+  {
+    "id": 58,
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "textTr": "Durmadığın sürece ne kadar yavaş gittiğin önemli değildir.",
+    "author": "Confucius",
+    "category": "Antik Filozoflar",
+    "language": "Chinese (English translation)"
+  },
+  {
+    "id": 59,
+    "text": "The way is not in the sky. The way is in the heart.",
+    "textTr": "Yol gökyüzünde değil, kalptedir.",
+    "author": "Buddha",
+    "category": "Antik Filozoflar",
+    "language": "Pali/Sanskrit (English translation)"
+  },
+  {
+    "id": 60,
+    "text": "Peace comes from within. Do not seek it without.",
+    "textTr": "Barış içeriden gelir. Onu dışarıda arama.",
+    "author": "Buddha",
+    "category": "Antik Filozoflar",
+    "language": "Pali/Sanskrit (English translation)"
+  },
+  {
+    "id": 61,
+    "text": "He who knows others is wise; he who knows himself is enlightened.",
+    "textTr": "Başkalarını bilen bilgedir; kendini bilen aydınlanmıştır.",
+    "author": "Lao Tzu",
+    "category": "Antik Filozoflar",
+    "language": "Chinese (English translation)"
+  },
+  {
+    "id": 62,
+    "text": "Nature does not hurry, yet everything is accomplished.",
+    "textTr": "Doğa acele etmez, ama her şey tamamlanır.",
+    "author": "Lao Tzu",
+    "category": "Antik Filozoflar",
+    "language": "Chinese (English translation)"
+  },
+  {
+    "id": 63,
+    "text": "Man conquers the world by conquering himself.",
+    "textTr": "İnsan, kendini fethederek dünyayı fetheder.",
+    "author": "Zeno of Citium",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 64,
+    "text": "We suffer more often in imagination than in reality.",
+    "textTr": "Acıları çoğu zaman gerçekte değil, hayalimizde yaşarız.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 65,
+    "text": "It is not that we have a short time to live, but that we waste a lot of it.",
+    "textTr": "Yaşamak için kısa bir zamanımız olduğu değil; çok fazlasını boşa harcadığımız doğrudur.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 66,
+    "text": "The happiness of your life depends upon the quality of your thoughts.",
+    "textTr": "Hayatının mutluluğu, düşüncelerinin kalitesine bağlıdır.",
+    "author": "Marcus Aurelius",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 67,
+    "text": "You have power over your mind, not outside events. Realize this, and you will find strength.",
+    "textTr": "Aklın üzerinde gücün var, dış olaylar üzerinde değil. Bunu anladığında güç sende olacaktır.",
+    "author": "Marcus Aurelius",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 68,
+    "text": "A room without books is like a body without a soul.",
+    "textTr": "Kitapsız bir oda, ruhsuz bir bedene benzer.",
+    "author": "Cicero",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 69,
+    "text": "If you want to be loved, love.",
+    "textTr": "Sevilmek istiyorsan sev.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 70,
+    "text": "Know thyself.",
+    "textTr": "Kendini bil.",
+    "author": "Socrates (Delphic maxim)",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 71,
+    "text": "No man ever steps in the same river twice.",
+    "textTr": "Hiçbir insan aynı nehirde iki kez yıkanamaz.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 72,
+    "text": "Change is the only constant in life.",
+    "textTr": "Hayattaki tek değişmeyen şey değişimin kendisidir.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 73,
+    "text": "The greatest wealth is to live content with little.",
+    "textTr": "En büyük zenginlik, az ile yetinerek yaşamaktır.",
+    "author": "Plato",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 74,
+    "text": "He is richest who is content with the least.",
+    "textTr": "En zengin olan, en azla yetinebilen kişidir.",
+    "author": "Socrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 75,
+    "text": "Freedom is the only worthy goal in life. It is won by disregarding things that lie beyond our control.",
+    "textTr": "Özgürlük hayattaki tek değerli hedeftir. Kontrolümüz dışındaki şeyleri önemsemeyerek kazanılır.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek (English translation)"
+  },
+  {
+    "id": 76,
+    "text": "Wealth consists not in having great possessions, but in having few wants.",
+    "textTr": "Zenginlik çok şeye sahip olmak değil, az şeye ihtiyaç duymaktır.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek (English translation)"
+  },
+  {
+    "id": 77,
+    "text": "He who laughs at himself never runs out of things to laugh at.",
+    "textTr": "Kendine gülebilen insanın gülecek şeyleri hiç bitmez.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek (English translation)"
+  },
+  {
+    "id": 78,
+    "text": "It is not what happens to you, but how you react to it that matters.",
+    "textTr": "Olanlar değil, onlara nasıl tepki verdiğin önemlidir.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek (English translation)"
+  },
+  {
+    "id": 79,
+    "text": "The soul becomes dyed with the color of its thoughts.",
+    "textTr": "Ruh, düşüncelerinin rengine boyanır.",
+    "author": "Marcus Aurelius",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 80,
+    "text": "To live happily is an inward power of the soul.",
+    "textTr": "Mutlu yaşamak, ruhun içsel bir gücüdür.",
+    "author": "Marcus Aurelius",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 81,
+    "text": "The energy of the mind is the essence of life.",
+    "textTr": "Zihnin enerjisi, hayatın özüdür.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 82,
+    "text": "Wishing to be friends is quick work, but friendship is a slow-ripening fruit.",
+    "textTr": "Dost olmak istemek hızlıdır, ama dostluk yavaş olgunlaşan bir meyvedir.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 83,
+    "text": "There is nothing permanent except change.",
+    "textTr": "Değişim dışında hiçbir şey kalıcı değildir.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 84,
+    "text": "Time is a game played beautifully by children.",
+    "textTr": "Zaman, çocukların güzelce oynadığı bir oyundur.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 85,
+    "text": "If you want to know what God thinks of money, just look at the people he gives it to.",
+    "textTr": "Tanrı'nın para hakkında ne düşündüğünü bilmek istiyorsan, onu verdiği insanlara bak.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 86,
+    "text": "No one is free who is not master of himself.",
+    "textTr": "Kendine hakim olmayan özgür değildir.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek (English translation)"
+  },
+  {
+    "id": 87,
+    "text": "A fool thinks himself to be wise, but a wise man knows himself to be a fool.",
+    "textTr": "Aptal kendini bilge sanır, bilge ise aptal olduğunu bilir.",
+    "author": "Socrates (Plato’s writings)",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 88,
+    "text": "The greatest way to live with honor in this world is to be what we pretend to be.",
+    "textTr": "Bu dünyada şerefle yaşamanın en büyük yolu, olduğumuz şeyi rol yapmadan yaşamaktır.",
+    "author": "Socrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 89,
+    "text": "We are more often frightened than hurt; and we suffer more from imagination than from reality.",
+    "textTr": "Çoğu zaman yaralanmaktan çok korkarız; acıları gerçekten değil hayallerimizde yaşarız.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  [
+  {
+    "id": 90,
+    "text": "He who angers you conquers you.",
+    "textTr": "Seni öfkelendiren, seni fetheder.",
+    "author": "Elizabeth Kenny'ye atıf yapılsa da ilk formu Stoacı öğretilere dayanır (Epiktetos'a nispet edilir)",
+    "category": "Antik Filozoflar",
+    "language": "English (Stoic origin)"
+  },
+  {
+    "id": 91,
+    "text": "To enjoy the things we ought and to hate the things we ought has the greatest bearing on excellence of character.",
+    "textTr": "Doğru olanı sevmek ve doğru olmayanı nefret etmek karakter mükemmelliğinin temelidir.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek (English translation)"
+  },
+  {
+    "id": 92,
+    "text": "The only true wisdom is in knowing you know nothing.",
+    "textTr": "Gerçek bilgelik, hiçbir şey bilmediğini bilmektir.",
+    "author": "Socrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 93,
+    "text": "He who is brave is free.",
+    "textTr": "Cesur olan özgürdür.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin"
+  },
+  {
+    "id": 94,
+    "text": "The soul is healed by being with children.",
+    "textTr": "Ruh, çocuklarla olarak iyileşir.",
+    "author": "Dostoyevski’ye atıf yapılır ancak ilk Stoacı temellidir",
+    "category": "Antik Filozoflar",
+    "language": "Russian (Stoic origin interpreted)"
+  },
+  {
+    "id": 95,
+    "text": "Good character is not formed in a week or a month. It is created little by little, day by day.",
+    "textTr": "İyi karakter bir haftada ya da ayda oluşmaz. Azar azar, her gün inşa edilir.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 96,
+    "text": "It is the mark of an educated mind to be able to entertain a thought without accepting it.",
+    "textTr": "Eğitimli bir zihnin göstergesi, bir düşünceyi kabul etmeden değerlendirebilmektir.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 97,
+    "text": "We live in the best of all possible worlds.",
+    "textTr": "Biz mümkün olan dünyaların en iyisinde yaşıyoruz.",
+    "author": "Leibniz (Antik felsefeden etkilenmiş modern başlangıç düşüncesi)",
+    "category": "Antik Filozoflar",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 98,
+    "text": "To be evenminded is the greatest virtue.",
+    "textTr": "Dingin olmak, en büyük erdemdir.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 99,
+    "text": "It is impossible for a man to learn what he thinks he already knows.",
+    "textTr": "Bir insanın bildiğini sandığı şeyi öğrenmesi imkânsızdır.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek"
+  },
+  {
+    "id": 100,
+    "text": "No man is free who cannot command himself.",
+    "textTr": "Kendine hükmedemeyen özgür değildir.",
+    "author": "Pythagoras",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 101,
+    "text": "Reason is immortal; all else is mortal.",
+    "textTr": "Akıl ölümsüzdür; diğer her şey ölümlüdür.",
+    "author": "Pythagoras",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 102,
+    "text": "Better to light a candle than to curse the darkness.",
+    "textTr": "Karanlığa lanet edeceğine bir mum yak.",
+    "author": "Confucius",
+    "category": "Antik Filozoflar",
+    "language": "Chinese"
+  },
+  {
+    "id": 103,
+    "text": "He who overcomes others is strong; he who overcomes himself is mighty.",
+    "textTr": "Başkalarını yenen güçlüdür; kendini yenen kudretlidir.",
+    "author": "Lao Tzu",
+    "category": "Antik Filozoflar",
+    "language": "Chinese"
+  },
+  {
+    "id": 104,
+    "text": "When anger rises, think of the consequences.",
+    "textTr": "Öfke yükseldiğinde, sonuçlarını düşün.",
+    "author": "Confucius",
+    "category": "Antik Filozoflar",
+    "language": "Chinese"
+  },
+  {
+    "id": 105,
+    "text": "He who speaks without modesty will find it difficult to make his words good.",
+    "textTr": "Alçakgönüllülük olmadan konuşan, sözlerini doğru kılmakta zorlanır.",
+    "author": "Confucius",
+    "category": "Antik Filozoflar",
+    "language": "Chinese"
+  },
+  {
+    "id": 106,
+    "text": "Only the educated are free.",
+    "textTr": "Sadece eğitimliler özgürdür.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek"
+  },
+  {
+    "id": 107,
+    "text": "No great mind has ever existed without a touch of madness.",
+    "textTr": "Bir parça delilik olmadan hiçbir büyük zihin var olmamıştır.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 108,
+    "text": "Character is destiny.",
+    "textTr": "Karakter kaderdir.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 109,
+    "text": "We are what our thoughts have made us; so take care about what you think.",
+    "textTr": "Biz düşüncelerimizin ürünüyüz; bu yüzden ne düşündüğüne dikkat et.",
+    "author": "Buddha",
+    "category": "Antik Filozoflar",
+    "language": "Sanskrit (English translation)"
+  },
+  {
+    "id": 110,
+    "text": "A gem cannot be polished without friction, nor a man perfected without trials.",
+    "textTr": "Elmas sürtünmeden, insan da zorluklardan geçmeden mükemmelleşemez.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin"
+  },
+  {
+    "id": 111,
+    "text": "We are what we think. All that we are arises with our thoughts.",
+    "textTr": "Biz düşündüklerimiziz. Ne isek, düşüncelerimizle oluruz.",
+    "author": "Buddha",
+    "category": "Antik Filozoflar",
+    "language": "Sanskrit"
+  },
+  {
+    "id": 112,
+    "text": "Life is short, the art long.",
+    "textTr": "Hayat kısa, sanat uzundur.",
+    "author": "Hippocrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 113,
+    "text": "Good people do not need laws to act responsibly, while bad people will find a way around the laws.",
+    "textTr": "İyi insanlar sorumlu davranmak için yasalara ihtiyaç duymaz, kötü insanlar ise yasaları aşmanın yolunu bulur.",
+    "author": "Plato",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 114,
+    "text": "If a man knows not to which port he sails, no wind is favorable.",
+    "textTr": "Hangi limana yelken açacağını bilmeyen için hiçbir rüzgâr uygun değildir.",
+    "author": "Seneca",
+    "category": "Antik Filozoflar",
+    "language": "Latin"
+  },
+  {
+    "id": 115,
+    "text": "The only wealth which you will keep forever is the wealth you have given away.",
+    "textTr": "Sonsuza dek saklayacağın tek servet, başkalarına verdiğindir.",
+    "author": "Marcus Aurelius",
+    "category": "Antik Filozoflar",
+    "language": "Latin"
+  },
+  {
+    "id": 116,
+    "text": "To be conscious of being, you need to reclaim the mind from its wanderings.",
+    "textTr": "Varoluşunun farkında olmak için zihnini dağılmaktan geri çağırmalısın.",
+    "author": "Plotinus",
+    "category": "Antik Filozoflar",
+    "language": "Greek"
+  },
+  {
+    "id": 117,
+    "text": "Withdraw into yourself and look. And if you do not find yourself beautiful yet, act as does the creator of a statue.",
+    "textTr": "İçine çekil ve bak. Henüz kendini güzel bulmuyorsan, heykeltraş gibi davranıp kendini güzelleştir.",
+    "author": "Plotinus",
+    "category": "Antik Filozoflar",
+    "language": "Greek"
+  },
+  {
+    "id": 118,
+    "text": "Much learning does not teach understanding.",
+    "textTr": "Çok şey öğrenmek, anlayışı öğretmez.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 119,
+    "text": "The greatest way to live with honor is to be what we pretend to be.",
+    "textTr": "Onurlu yaşamanın en büyük yolu, göründüğümüz kişi olabilmektir.",
+    "author": "Socrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 120,
+    "text": "Don't explain your philosophy. Embody it.",
+    "textTr": "Felsefeni açıklama, yaşa.",
+    "author": "Epictetus",
+    "category": "Antik Filozoflar",
+    "language": "Greek"
+  },
+  {
+    "id": 121,
+    "text": "There is only one good, knowledge, and one evil, ignorance.",
+    "textTr": "Tek bir iyilik vardır, bilgi; tek bir kötülük vardır, cehalet.",
+    "author": "Socrates",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 122,
+    "text": "No one that encounters prosperity does not also encounter danger.",
+    "textTr": "Refahı bulan herkes tehlikeyi de bulur.",
+    "author": "Heraclitus",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 123,
+    "text": "Learning without thought is labor lost; thought without learning is perilous.",
+    "textTr": "Düşüncesiz öğrenmek boşa emektir; öğrenmesiz düşünmek tehlikelidir.",
+    "author": "Confucius",
+    "category": "Antik Filozoflar",
+    "language": "Chinese"
+  },
+  {
+    "id": 124,
+    "text": "Patience is the companion of wisdom.",
+    "textTr": "Sabır, bilgelik yoldaşıdır.",
+    "author": "Saint Augustine (Antik düşünce etkisi)",
+    "category": "Antik Filozoflar",
+    "language": "Latin"
+  },
+  {
+    "id": 125,
+    "text": "There is nothing in the mind that was not first in the senses.",
+    "textTr": "Zihinde duyulardan gelmeyen hiçbir şey yoktur.",
+    "author": "Aristotle",
+    "category": "Antik Filozoflar",
+    "language": "Ancient Greek"
+  }
+]
+[
+  {
+    "id": 125,
+    "text": "Cogito, ergo sum.",
+    "textTr": "Düşünüyorum, öyleyse varım.",
+    "author": "René Descartes",
+    "category": "Modern Filozoflar",
+    "language": "Latin"
+  },
+  {
+    "id": 126,
+    "text": "Happiness is not an ideal of reason but of imagination.",
+    "textTr": "Mutluluk aklın değil, hayal gücünün bir idealidir.",
+    "author": "Immanuel Kant",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 127,
+    "text": "God is dead. God remains dead. And we have killed him.",
+    "textTr": "Tanrı öldü. Tanrı öldü ve onu biz öldürdük.",
+    "author": "Friedrich Nietzsche",
+    "category": "Modern Filozoflar",
+    "language": "German"
+  },
+  {
+    "id": 128,
+    "text": "He who has a why to live can bear almost any how.",
+    "textTr": "Yaşamak için bir nedeni olan, hemen her nasıl’a katlanabilir.",
+    "author": "Friedrich Nietzsche",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 129,
+    "text": "Freedom is the recognition of necessity.",
+    "textTr": "Özgürlük, zorunluluğun farkına varmaktır.",
+    "author": "Georg Wilhelm Friedrich Hegel",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 130,
+    "text": "Man is condemned to be free.",
+    "textTr": "İnsan özgür olmaya mahkûmdur.",
+    "author": "Jean-Paul Sartre",
+    "category": "Modern Filozoflar",
+    "language": "French"
+  },
+  {
+    "id": 131,
+    "text": "Existence precedes essence.",
+    "textTr": "Varlık özden önce gelir.",
+    "author": "Jean-Paul Sartre",
+    "category": "Modern Filozoflar",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 132,
+    "text": "Hell is other people.",
+    "textTr": "Cehennem başkalarıdır.",
+    "author": "Jean-Paul Sartre",
+    "category": "Modern Filozoflar",
+    "language": "French"
+  },
+  {
+    "id": 133,
+    "text": "The only way to deal with an unfree world is to become so absolutely free that your very existence is an act of rebellion.",
+    "textTr": "Özgür olmayan bir dünyayla başa çıkmanın tek yolu, varoluşunun kendisi bir isyan eylemi olacak kadar tamamen özgür olmaktır.",
+    "author": "Albert Camus",
+    "category": "Modern Filozoflar",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 134,
+    "text": "Life will be lived all the better if it has no meaning.",
+    "textTr": "Hayatın bir anlamı olmazsa, daha iyi yaşanacaktır.",
+    "author": "Albert Camus",
+    "category": "Modern Filozoflar",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 135,
+    "text": "One must imagine Sisyphus happy.",
+    "textTr": "Sisyphos’u mutlu olarak hayal etmeliyiz.",
+    "author": "Albert Camus",
+    "category": "Modern Filozoflar",
+    "language": "French"
+  },
+  {
+    "id": 136,
+    "text": "The limits of my language mean the limits of my world.",
+    "textTr": "Dilimin sınırları, dünyamın sınırlarıdır.",
+    "author": "Ludwig Wittgenstein",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 137,
+    "text": "Whereof one cannot speak, thereof one must be silent.",
+    "textTr": "Üzerine konuşulamayan şeyler konusunda susmak gerekir.",
+    "author": "Ludwig Wittgenstein",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 138,
+    "text": "The more sand has escaped from the hourglass of our life, the clearer we should see through it.",
+    "textTr": "Hayat kum saatimizden ne kadar çok kum akarsa, o kadar net görmeliyiz.",
+    "author": "Jean-Paul Sartre",
+    "category": "Modern Filozoflar",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 139,
+    "text": "We do not describe the world we see; we see the world we can describe.",
+    "textTr": "Gördüğümüz dünyayı tarif etmeyiz; tarif edebildiğimiz dünyayı görürüz.",
+    "author": "Ludwig Wittgenstein",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 140,
+    "text": "The mind is furnished with ideas by experience alone.",
+    "textTr": "Zihin ancak deneyim yoluyla fikirlerle donatılır.",
+    "author": "John Locke",
+    "category": "Modern Filozoflar",
+    "language": "English"
+  },
+  {
+    "id": 141,
+    "text": "Man is born free, and everywhere he is in chains.",
+    "textTr": "İnsan özgür doğar, fakat her yerde zincire vurulmuştur.",
+    "author": "Jean-Jacques Rousseau",
+    "category": "Modern Filozoflar",
+    "language": "French"
+  },
+  {
+    "id": 142,
+    "text": "You can discover more about a person in an hour of play than in a year of conversation.",
+    "textTr": "Bir kişi hakkında, bir saatlik oyunla bir yıllık konuşmadan daha çok şey öğrenebilirsin.",
+    "author": "Plato (modern yorumlanmış)",
+    "category": "Modern Filozoflar",
+    "language": "Greek (English translation)"
+  },
+  {
+    "id": 143,
+    "text": "The greatest happiness of the greatest number is the foundation of morals and legislation.",
+    "textTr": "En çok sayıda insanın en büyük mutluluğu, ahlakın ve yasaların temelidir.",
+    "author": "Jeremy Bentham",
+    "category": "Modern Filozoflar",
+    "language": "English"
+  },
+  {
+    "id": 144,
+    "text": "Happiness is the absence of pain.",
+    "textTr": "Mutluluk, acının yokluğudur.",
+    "author": "John Stuart Mill",
+    "category": "Modern Filozoflar",
+    "language": "English"
+  },
+  {
+    "id": 145,
+    "text": "Man can do what he wills but he cannot will what he wills.",
+    "textTr": "İnsan istediğini yapabilir, fakat ne isteyeceğini isteyemez.",
+    "author": "Arthur Schopenhauer",
+    "category": "Modern Filozoflar",
+    "language": "German"
+  },
+  {
+    "id": 146,
+    "text": "The world is my representation.",
+    "textTr": "Dünya benim tasavvurumdur.",
+    "author": "Arthur Schopenhauer",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 147,
+    "text": "Life is suffering.",
+    "textTr": "Hayat ıstıraptır.",
+    "author": "Arthur Schopenhauer (Buddhist influence)",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 148,
+    "text": "The only thing I know is that I know nothing.",
+    "textTr": "Tek bildiğim şey hiçbir şey bilmediğimdir.",
+    "author": "Socrates (modern etkiliyor)",
+    "category": "Modern Filozoflar",
+    "language": "Ancient Greek"
+  },
+  {
+    "id": 149,
+    "text": "We are not rich by what we possess but by what we can do without.",
+    "textTr": "Zenginlik, sahip olduklarımızla değil, vazgeçebildiklerimizle ölçülür.",
+    "author": "Immanuel Kant",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 150,
+    "text": "The measure of intelligence is the ability to change.",
+    "textTr": "Zekânın ölçüsü değişme yeteneğidir.",
+    "author": "Albert Einstein",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 151,
+    "text": "Reality is merely an illusion, albeit a very persistent one.",
+    "textTr": "Gerçeklik yalnızca bir illüzyondur, ama oldukça ısrarcı bir illüzyon.",
+    "author": "Albert Einstein",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 152,
+    "text": "Life can only be understood backwards; but it must be lived forwards.",
+    "textTr": "Hayat sadece geriye bakarak anlaşılabilir; fakat ileriye doğru yaşanmalıdır.",
+    "author": "Søren Kierkegaard",
+    "category": "Modern Filozoflar",
+    "language": "Danish (English translation)"
+  },
+  {
+    "id": 153,
+    "text": "Anxiety is the dizziness of freedom.",
+    "textTr": "Kaygı, özgürlüğün baş dönmesidir.",
+    "author": "Søren Kierkegaard",
+    "category": "Modern Filozoflar",
+    "language": "Danish"
+  },
+  {
+    "id": 154,
+    "text": "Man is what he believes.",
+    "textTr": "İnsan inandığı şeydir.",
+    "author": "Anton Chekhov (modern varoluşçu etki)",
+    "category": "Modern Filozoflar",
+    "language": "Russian (English translation)"
+  },
+  {
+    "id": 155,
+    "text": "Being is. Being is in-itself. Being is what it is.",
+    "textTr": "Varlık vardır. Varlık kendi başınadır. Varlık, olduğu şeydir.",
+    "author": "Jean-Paul Sartre",
+    "category": "Modern Filozoflar",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 156,
+    "text": "To be is to be perceived.",
+    "textTr": "Var olmak, algılanmış olmaktır.",
+    "author": "George Berkeley",
+    "category": "Modern Filozoflar",
+    "language": "English"
+  },
+  {
+    "id": 157,
+    "text": "In the middle of difficulty lies opportunity.",
+    "textTr": "Zorlukların ortasında fırsatlar yatar.",
+    "author": "Albert Einstein",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 158,
+    "text": "Every man takes the limits of his own field of vision for the limits of the world.",
+    "textTr": "Her insan, kendi görüş alanının sınırlarını dünyanın sınırları sanır.",
+    "author": "Arthur Schopenhauer",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 159,
+    "text": "One is not born, but rather becomes, a woman.",
+    "textTr": "Kadın doğulmaz, kadın olunur.",
+    "author": "Simone de Beauvoir",
+    "category": "Modern Filozoflar",
+    "language": "French"
+  },
+  {
+    "id": 160,
+    "text": "To live is to suffer, to survive is to find some meaning in the suffering.",
+    "textTr": "Yaşamak acı çekmektir, hayatta kalmak acıda bir anlam bulmaktır.",
+    "author": "Friedrich Nietzsche",
+    "category": "Modern Filozoflar",
+    "language": "German (English translation)"
+  }
+]
+  {
+    "id": 161,
+    "text": "The good thing about science is that it's true whether or not you believe in it.",
+    "textTr": "Bilimle ilgili güzel olan şey, sen ona inansan da inanmasan da gerçek olmasıdır.",
+    "author": "Neil deGrasse Tyson",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 162,
+    "text": "If you want to find the secrets of the universe, think in terms of energy, frequency, and vibration.",
+    "textTr": "Evrendeki sırları bulmak istiyorsan enerji, frekans ve titreşim açısından düşün.",
+    "author": "Nikola Tesla",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 163,
+    "text": "What we know is a drop, what we don't know is an ocean.",
+    "textTr": "Bildiğimiz bir damla, bilmediğimiz bir okyanustur.",
+    "author": "Isaac Newton",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 164,
+    "text": "Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.",
+    "textTr": "İki şey sonsuzdur: evren ve insan aptallığı; gerçi evrenden emin değilim.",
+    "author": "Albert Einstein",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 165,
+    "text": "The important thing is not to stop questioning. Curiosity has its own reason for existing.",
+    "textTr": "Önemli olan soru sormayı bırakmamaktır. Merakın varoluşunun kendi nedeni vardır.",
+    "author": "Albert Einstein",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 166,
+    "text": "Science is not only a disciple of reason, but romance and passion.",
+    "textTr": "Bilim yalnızca aklın değil, aynı zamanda romantizmin ve tutkuların da disiplinidir.",
+    "author": "Stephen Hawking",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 167,
+    "text": "Somewhere, something incredible is waiting to be known.",
+    "textTr": "Bir yerlerde, inanılmaz bir şey keşfedilmeyi bekliyor.",
+    "author": "Carl Sagan",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 168,
+    "text": "We are a way for the cosmos to know itself.",
+    "textTr": "Biz, kozmosun kendini bilmesinin bir yoluyuz.",
+    "author": "Carl Sagan",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 169,
+    "text": "The saddest aspect of life right now is that science gathers knowledge faster than society gathers wisdom.",
+    "textTr": "Şu anda hayatın en üzücü yanı, bilimin bilgiyi toplumun bilgeliği toplamasından daha hızlı toplamasıdır.",
+    "author": "Isaac Asimov",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 170,
+    "text": "Look deep into nature, and then you will understand everything better.",
+    "textTr": "Doğanın derinliklerine bak, her şeyi daha iyi anlayacaksın.",
+    "author": "Albert Einstein",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 171,
+    "text": "In questions of science, the authority of a thousand is not worth the humble reasoning of a single individual.",
+    "textTr": "Bilim söz konusu olduğunda, bin kişinin otoritesi, bir kişinin mütevazı akıl yürütmesine değmez.",
+    "author": "Galileo Galilei",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "Italian (English translation)"
+  },
+  {
+    "id": 172,
+    "text": "Measure what is measurable, and make measurable what is not so.",
+    "textTr": "Ölçülebilir olanı ölç; ölçülemeyeni ise ölçülebilir hale getir.",
+    "author": "Galileo Galilei",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "Italian"
+  },
+  {
+    "id": 173,
+    "text": "The opposite of knowledge is not ignorance, it is the illusion of knowledge.",
+    "textTr": "Bilginin karşıtı cehalet değil, bilme yanılsamasıdır.",
+    "author": "Daniel J. Boorstin",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 174,
+    "text": "Science is the poetry of reality.",
+    "textTr": "Bilim, gerçekliğin şiiridir.",
+    "author": "Richard Dawkins",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 175,
+    "text": "Not only is the universe stranger than we think, it is stranger than we can think.",
+    "textTr": "Evren yalnızca düşündüğümüzden daha garip değil, düşünebileceğimizden de daha gariptir.",
+    "author": "Werner Heisenberg",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 176,
+    "text": "The first principle is that you must not fool yourself, and you are the easiest person to fool.",
+    "textTr": "Birinci ilke, kendini kandırmamalısın; çünkü kandırması en kolay kişi sensin.",
+    "author": "Richard Feynman",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 177,
+    "text": "If I have seen further it is by standing on the shoulders of giants.",
+    "textTr": "Eğer daha ileriyi görebildiysem, bu devlerin omuzlarında durduğum içindir.",
+    "author": "Isaac Newton",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 178,
+    "text": "What we observe is not nature itself, but nature exposed to our method of questioning.",
+    "textTr": "Gözlemlediğimiz şey doğanın kendisi değil, bizim sorma yöntemimize verilen cevaptır.",
+    "author": "Werner Heisenberg",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German"
+  },
+  {
+    "id": 179,
+    "text": "Science without religion is lame, religion without science is blind.",
+    "textTr": "Dinsiz bilim topal, bilimsiz din kördür.",
+    "author": "Albert Einstein",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 180,
+    "text": "Equipped with his five senses, man explores the universe around him and calls the adventure Science.",
+    "textTr": "İnsan, beş duyusuyla çevresindeki evreni keşfeder ve bu maceraya 'bilim' adını verir.",
+    "author": "Edwin Hubble",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 181,
+    "text": "The true sign of intelligence is not knowledge but imagination.",
+    "textTr": "Zekânın gerçek göstergesi bilgi değil, hayal gücüdür.",
+    "author": "Albert Einstein",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 182,
+    "text": "Where the telescope ends, the microscope begins. Which of the two has the grander view?",
+    "textTr": "Teleskobun bittiği yerde mikroskop başlar. Hangisinin görüşü daha yücedir?",
+    "author": "Victor Hugo (bilim felsefesi yorumu)",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 183,
+    "text": "Nature uses only the longest threads to weave her patterns, so that each small piece of her fabric reveals the organization of the entire tapestry.",
+    "textTr": "Doğa desenlerini dokumak için yalnızca en uzun iplikleri kullanır; böylece kumaşın küçük bir parçası bile tüm evrenin düzenini gösterir.",
+    "author": "Richard Feynman",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 184,
+    "text": "Somewhere, something incredible is waiting to be known.",
+    "textTr": "Bir yerlerde, inanılmaz bir şey keşfedilmeyi bekliyor.",
+    "author": "Carl Sagan",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 185,
+    "text": "Curiosity is the engine of achievement.",
+    "textTr": "Merak, başarının motorudur.",
+    "author": "Ken Robinson",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 186,
+    "text": "The greatest enemy of knowledge is not ignorance, it is the illusion of knowledge.",
+    "textTr": "Bilginin en büyük düşmanı cehalet değil, bilme yanılsamasıdır.",
+    "author": "Stephen Hawking",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 187,
+    "text": "Science is magic that works.",
+    "textTr": "Bilim, işe yarayan büyüdür.",
+    "author": "Kurt Vonnegut",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 188,
+    "text": "Some people without brains do an awful lot of talking.",
+    "textTr": "Bazı insanlar beyin olmadan da çok konuşuyor.",
+    "author": "Thomas Edison",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 189,
+    "text": "The greatest scientists are artists as well.",
+    "textTr": "En büyük bilim insanları aynı zamanda sanatçılardır.",
+    "author": "Albert Einstein",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German (English translation)"
+  },
+  
+    "id": 190,
+    "text": "We are made of star-stuff.",
+    "textTr": "Biz yıldız maddesinden yapılmışız.",
+    "author": "Carl Sagan",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+[
+  {
+    "id": 191,
+    "text": "Science is the acceptance of what works and the rejection of what does not. That needs more courage than we might think.",
+    "textTr": "Bilim, işe yarayanı kabul etmek ve yaramayanı reddetmektir. Bu, düşündüğümüzden daha fazla cesaret gerektirir.",
+    "author": "Jacob Bronowski",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 192,
+    "text": "Somewhere, something incredible is waiting to be known.",
+    "textTr": "Bir yerlerde olağanüstü bir şey bilinir olmayı bekliyor.",
+    "author": "Carl Sagan",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 193,
+    "text": "If you want to live a happy life, tie it to a goal, not to people or things.",
+    "textTr": "Mutlu bir hayat yaşamak istiyorsan onu insanlara ya da eşyalara değil, bir amaca bağla.",
+    "author": "Albert Einstein",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 194,
+    "text": "We are just an advanced breed of monkeys on a minor planet of a very average star.",
+    "textTr": "Biz sadece sıradan bir yıldızın küçük bir gezegeninde yaşayan gelişmiş bir maymun türüyüz.",
+    "author": "Stephen Hawking",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 195,
+    "text": "The greatest enemy of knowledge is not ignorance; it is the illusion of knowledge.",
+    "textTr": "Bilginin en büyük düşmanı cehalet değil, bilme yanılsamasıdır.",
+    "author": "Stephen Hawking",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 196,
+    "text": "Science is the key to our future, and if you don’t believe in science, then you’re holding everybody back.",
+    "textTr": "Bilim geleceğimizin anahtarıdır ve bilime inanmıyorsan herkesi geride tutuyorsun demektir.",
+    "author": "Bill Nye",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 197,
+    "text": "Imagination will often carry us to worlds that never were. But without it, we go nowhere.",
+    "textTr": "Hayal gücü bizi hiç var olmayan dünyalara taşıyabilir. Ama onsuz hiçbir yere gidemeyiz.",
+    "author": "Carl Sagan",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 198,
+    "text": "The universe is under no obligation to make sense to you.",
+    "textTr": "Evrenin sana anlamlı gelmek gibi bir zorunluluğu yoktur.",
+    "author": "Neil deGrasse Tyson",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 199,
+    "text": "The important achievement of physics in the twentieth century has been the recognition that we are observers in a universe that is participatory.",
+    "textTr": "Yirminci yüzyıl fiziğinin önemli başarısı, katılımcı bir evrende gözlemciler olduğumuzu kabul etmesidir.",
+    "author": "John Archibald Wheeler",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  },
+  {
+    "id": 200,
+    "text": "We are a way for the cosmos to know itself.",
+    "textTr": "Biz, kozmosun kendini bilmesinin bir yoluyuz.",
+    "author": "Carl Sagan",
+    "category": "Bilim İnsanları & Mütefekkirler",
+    "language": "English"
+  }
+]
+[
+  {
+    "id": 201,
+    "text": "It always seems impossible until it is done.",
+    "textTr": "Her şey bitene kadar imkânsız görünür.",
+    "author": "Nelson Mandela",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 202,
+    "text": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "textTr": "Yarını gerçekleştirmemizin tek sınırı bugünkü şüphelerimizdir.",
+    "author": "Franklin D. Roosevelt",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 203,
+    "text": "Whether you think you can, or you think you can’t – you’re right.",
+    "textTr": "Yapabileceğini düşünsen de yapamayacağını düşünsen de – haklısın.",
+    "author": "Henry Ford",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 204,
+    "text": "Your time is limited, so don’t waste it living someone else’s life.",
+    "textTr": "Zamanınız sınırlıdır, başkasının hayatını yaşayarak boşa harcamayın.",
+    "author": "Steve Jobs",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 205,
+    "text": "The biggest risk is not taking any risk.",
+    "textTr": "En büyük risk, hiçbir risk almamaktır.",
+    "author": "Mark Zuckerberg",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 206,
+    "text": "Fall seven times, stand up eight.",
+    "textTr": "Yedi kez düş, sekiz kez kalk.",
+    "author": "Japon Atasözü",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "Japanese (English translation)"
+  },
+  {
+    "id": 207,
+    "text": "It is in your moments of decision that your destiny is shaped.",
+    "textTr": "Kaderiniz, karar anlarınızda şekillenir.",
+    "author": "Tony Robbins",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 208,
+    "text": "Success is walking from failure to failure with no loss of enthusiasm.",
+    "textTr": "Başarı, heves kaybetmeden bir başarısızlıktan diğerine yürümektir.",
+    "author": "Winston Churchill",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 209,
+    "text": "Not all those who wander are lost.",
+    "textTr": "Yolda olanların hepsi kaybolmuş değildir.",
+    "author": "J.R.R. Tolkien",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 210,
+    "text": "The only impossible journey is the one you never begin.",
+    "textTr": "Tek imkansız yolculuk, asla başlamadığın yolculuktur.",
+    "author": "Tony Robbins",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 211,
+    "text": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "textTr": "Güç fiziksel kapasiteden değil, boyun eğmeyen bir iradeden gelir.",
+    "author": "Mahatma Gandhi",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 212,
+    "text": "In the middle of every difficulty lies opportunity.",
+    "textTr": "Her zorluğun ortasında bir fırsat yatar.",
+    "author": "Albert Einstein",
+    "category": "Bilim & Düşünce",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 213,
+    "text": "To succeed in life, you need two things: ignorance and confidence.",
+    "textTr": "Hayatta başarılı olmak için iki şeye ihtiyaç vardır: cehalet ve özgüven.",
+    "author": "Mark Twain",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 214,
+    "text": "The future depends on what you do today.",
+    "textTr": "Gelecek, bugün ne yaptığına bağlıdır.",
+    "author": "Mahatma Gandhi",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 215,
+    "text": "You miss 100% of the shots you don’t take.",
+    "textTr": "Denemediğin atışların yüzde 100’ünü kaçırırsın.",
+    "author": "Wayne Gretzky",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 216,
+    "text": "If you are working on something exciting that you really care about, you don’t have to be pushed. The vision pulls you.",
+    "textTr": "Gerçekten önemsediğiniz heyecan verici bir şey üzerinde çalışıyorsanız, itilmeye gerek yoktur. Vizyon sizi çeker.",
+    "author": "Steve Jobs",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 217,
+    "text": "Do what you can, with what you have, where you are.",
+    "textTr": "Neyin varsa, elinden ne geliyorsa, bulunduğun yerden başla.",
+    "author": "Theodore Roosevelt",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 218,
+    "text": "Our greatest glory is not in never falling, but in rising every time we fall.",
+    "textTr": "En büyük zaferimiz hiç düşmemek değil, her düştüğümüzde yeniden kalkmaktır.",
+    "author": "Confucius",
+    "category": "Bilgelik & Felsefe",
+    "language": "Chinese (English translation)"
+  },
+  {
+    "id": 219,
+    "text": "Believe you can and you’re halfway there.",
+    "textTr": "Yapabileceğine inan; yolun yarısını katettin bile.",
+    "author": "Theodore Roosevelt",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 220,
+    "text": "A person who never made a mistake never tried anything new.",
+    "textTr": "Asla hata yapmayan biri, yeni bir şey denememiştir.",
+    "author": "Albert Einstein",
+    "category": "Bilim & Düşünce",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 221,
+    "text": "Do not wait; the time will never be 'just right.' Start where you stand.",
+    "textTr": "Bekleme; zaman asla 'tam uygun' olmayacak. Durduğun yerden başla.",
+    "author": "Napoleon Hill",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 222,
+    "text": "It does not matter how slowly you go as long as you do not stop.",
+    "textTr": "Durmadığın sürece yavaş gitmen önemli değildir.",
+    "author": "Confucius",
+    "category": "Bilgelik & Felsefe",
+    "language": "Chinese (English translation)"
+  },
+  {
+    "id": 223,
+    "text": "Do not go where the path may lead, go instead where there is no path and leave a trail.",
+    "textTr": "Yolun götürdüğü yere gitme; yol olmayan yere git ve iz bırak.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 224,
+    "text": "If you want to lift yourself up, lift up someone else.",
+    "textTr": "Kendinizi yukarı çekmek istiyorsanız, bir başkasını yukarı çekin.",
+    "author": "Booker T. Washington",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 225,
+    "text": "Success usually comes to those who are too busy to be looking for it.",
+    "textTr": "Başarı genellikle onu aramak için çok meşgul olanlara gelir.",
+    "author": "Henry David Thoreau",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 226,
+    "text": "If you can't explain it simply, you don't understand it well enough.",
+    "textTr": "Bir şeyi basitçe açıklayamıyorsan, onu yeterince iyi anlamamışsındır.",
+    "author": "Albert Einstein",
+    "category": "Bilim & Düşünce",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 227,
+    "text": "The only real mistake is the one from which we learn nothing.",
+    "textTr": "Gerçek hata, hiçbir şey öğrenmediğimiz hatadır.",
+    "author": "Henry Ford",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 228,
+    "text": "We become what we think about.",
+    "textTr": "Düşündüğümüz şey oluruz.",
+    "author": "Earl Nightingale",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 229,
+    "text": "You will face many defeats in life, but never let yourself be defeated.",
+    "textTr": "Hayatta birçok yenilgiyle karşılaşacaksın, ama asla yenilgiyi kabul etme.",
+    "author": "Maya Angelou",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 230,
+    "text": "If something is important enough, even if the odds are against you, you should still do it.",
+    "textTr": "Bir şey yeterince önemliyse, ihtimaller karşında olsa bile yine de yapmalısın.",
+    "author": "Elon Musk",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 231,
+    "text": "Dream big and dare to fail.",
+    "textTr": "Büyük hayal kur ve başarısız olmaya cesaret et.",
+    "author": "Norman Vaughan",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 232,
+    "text": "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "textTr": "Yarın ölecekmiş gibi yaşa. Sonsuza dek yaşayacakmış gibi öğren.",
+    "author": "Mahatma Gandhi",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 233,
+    "text": "The man who moves a mountain begins by carrying away small stones.",
+    "textTr": "Bir dağı yerinden oynatan adam, küçük taşları kaldırmakla işe başlar.",
+    "author": "Confucius",
+    "category": "Bilgelik & Felsefe",
+    "language": "Chinese (English translation)"
+  }
+]
+[
+  {
+    "id": 234,
+    "text": "Leadership is not about being in charge. It is about taking care of those in your charge.",
+    "textTr": "Liderlik, başta olmak değil; sorumluluğundakilere bakabilmektir.",
+    "author": "Simon Sinek",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 235,
+    "text": "If you want to go fast, go alone. If you want to go far, go together.",
+    "textTr": "Hızlı gitmek istiyorsan yalnız git. Uzağa gitmek istiyorsan birlikte git.",
+    "author": "Afrika Atasözü",
+    "category": "Liderler & Devrimciler",
+    "language": "African proverb (English translation)"
+  },
+  {
+    "id": 236,
+    "text": "Don’t find fault, find a remedy.",
+    "textTr": "Suçlu arama, çözüm bul.",
+    "author": "Henry Ford",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 237,
+    "text": "Quality means doing it right when no one is looking.",
+    "textTr": "Kalite, kimse bakmazken doğru şeyi yapmaktır.",
+    "author": "Henry Ford",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 238,
+    "text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.",
+    "textTr": "Geçmişimizde ve geleceğimizde olanlar, içimizde olanlarla kıyaslandığında önemsizdir.",
+    "author": "Ralph Waldo Emerson",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 239,
+    "text": "Discipline is the bridge between goals and accomplishment.",
+    "textTr": "Disiplin, hedeflerle başarı arasındaki köprüdür.",
+    "author": "Jim Rohn",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 240,
+    "text": "Courage is grace under pressure.",
+    "textTr": "Cesaret, baskı altındaki zarafettir.",
+    "author": "Ernest Hemingway",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 241,
+    "text": "Innovation distinguishes between a leader and a follower.",
+    "textTr": "Yenilik, lider ile takipçi arasındaki farkı yaratır.",
+    "author": "Steve Jobs",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 242,
+    "text": "I have a dream.",
+    "textTr": "Bir hayalim var.",
+    "author": "Martin Luther King Jr.",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 243,
+    "text": "Don’t watch the clock; do what it does. Keep going.",
+    "textTr": "Saate bakma; onun yaptığı gibi yap. Devam et.",
+    "author": "Sam Levenson",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 244,
+    "text": "A winner is a dreamer who never gives up.",
+    "textTr": "Kazanan, asla pes etmeyen bir hayalperesttir.",
+    "author": "Nelson Mandela",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 245,
+    "text": "In order to be irreplaceable, one must always be different.",
+    "textTr": "Vazgeçilmez olmak istiyorsan, her zaman farklı olmalısın.",
+    "author": "Coco Chanel",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 246,
+    "text": "The pen is mightier than the sword.",
+    "textTr": "Kalem, kılıçtan keskindir.",
+    "author": "Edward Bulwer-Lytton",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 247,
+    "text": "Motivation is what gets you started. Habit is what keeps you going.",
+    "textTr": "Motivasyon seni başlatır; alışkanlık seni devam ettirir.",
+    "author": "Jim Ryun",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 248,
+    "text": "You can’t use up creativity. The more you use, the more you have.",
+    "textTr": "Yaratıcılığı tüketemezsin. Ne kadar çok kullanırsan, o kadar çok sahip olursun.",
+    "author": "Maya Angelou",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 249,
+    "text": "If you want to make everyone happy, don’t be a leader, sell ice cream.",
+    "textTr": "Herkesi mutlu etmek istiyorsan lider olma, dondurma sat.",
+    "author": "Steve Jobs",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 250,
+    "text": "Action is the foundational key to all success.",
+    "textTr": "Eylem, tüm başarının temel anahtarıdır.",
+    "author": "Pablo Picasso",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "Spanish (English translation)"
+  },
+  {
+    "id": 251,
+    "text": "It is hard to fail, but it is worse never to have tried to succeed.",
+    "textTr": "Başarısız olmak zordur, ama başarıyı denememek daha kötüdür.",
+    "author": "Theodore Roosevelt",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 252,
+    "text": "If you want to be successful, you must respect one rule: Never lie to yourself.",
+    "textTr": "Başarılı olmak istiyorsan tek bir kurala saygı duymalısın: Kendine yalan söyleme.",
+    "author": "Paulo Coelho",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "Portuguese (English translation)"
+  },
+  {
+    "id": 253,
+    "text": "Don’t count the days, make the days count.",
+    "textTr": "Günleri sayma, günleri anlamlı kıl.",
+    "author": "Muhammad Ali",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 254,
+    "text": "If you can dream it, you can do it.",
+    "textTr": "Hayal edebiliyorsan, yapabilirsin.",
+    "author": "Walt Disney",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 255,
+    "text": "If you want peace, you don’t talk to your friends. You talk to your enemies.",
+    "textTr": "Barış istiyorsan dostlarınla değil, düşmanlarınla konuşursun.",
+    "author": "Desmond Tutu",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 256,
+    "text": "You can’t build a reputation on what you are going to do.",
+    "textTr": "Ne yapacağını söyleyerek itibar kazanamazsın.",
+    "author": "Henry Ford",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 257,
+    "text": "A goal without a plan is just a wish.",
+    "textTr": "Plansız bir hedef sadece bir dilektir.",
+    "author": "Antoine de Saint-Exupéry",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 258,
+    "text": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
+    "textTr": "Başarı son değil, başarısızlık ölümcül değildir: Önemli olan devam etme cesaretidir.",
+    "author": "Winston Churchill",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 259,
+    "text": "The best way to predict the future is to create it.",
+    "textTr": "Geleceği tahmin etmenin en iyi yolu, onu yaratmaktır.",
+    "author": "Peter Drucker",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 260,
+    "text": "Don’t wish it were easier. Wish you were better.",
+    "textTr": "Kolay olmasını dileme; senin daha iyi olmanı dile.",
+    "author": "Jim Rohn",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 261,
+    "text": "The only journey is the one within.",
+    "textTr": "Tek gerçek yolculuk, içe yapılan yolculuktur.",
+    "author": "Rainer Maria Rilke",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 262,
+    "text": "He who is brave is free.",
+    "textTr": "Cesur olan özgürdür.",
+    "author": "Seneca",
+    "category": "Bilgelik & Felsefe",
+    "language": "Latin (English translation)"
+  },
+  {
+    "id": 263,
+    "text": "Don’t let yesterday take up too much of today.",
+    "textTr": "Dünün bugünden çok şey almasına izin verme.",
+    "author": "Will Rogers",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 264,
+    "text": "We cannot solve our problems with the same thinking we used when we created them.",
+    "textTr": "Sorunları, onları yaratırken kullandığımız düşünceyle çözemeyiz.",
+    "author": "Albert Einstein",
+    "category": "Bilim & Düşünce",
+    "language": "German (English translation)"
+  },
+  {
+    "id": 265,
+    "text": "To handle yourself, use your head; to handle others, use your heart.",
+    "textTr": "Kendini yönetmek için aklını kullan; başkalarını yönetmek için kalbini.",
+    "author": "Eleanor Roosevelt",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 266,
+    "text": "To live a creative life, we must lose our fear of being wrong.",
+    "textTr": "Yaratıcı bir hayat yaşamak için, hata yapma korkumuzu kaybetmeliyiz.",
+    "author": "Joseph Chilton Pearce",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  }
+]
+[
+  {
+    "id": 267,
+    "text": "A leader is one who knows the way, goes the way, and shows the way.",
+    "textTr": "Lider, yolu bilen, o yolda yürüyen ve başkalarına da gösterendir.",
+    "author": "John C. Maxwell",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 268,
+    "text": "Don’t be afraid to give up the good to go for the great.",
+    "textTr": "İyiyi bırakmaktan korkma; harikaya ulaşmak içindir bu.",
+    "author": "John D. Rockefeller",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 269,
+    "text": "You become what you believe.",
+    "textTr": "İnandığın şey olursun.",
+    "author": "Oprah Winfrey",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 270,
+    "text": "The purpose of art is washing the dust of daily life off our souls.",
+    "textTr": "Sanatın amacı, günlük hayatın tozunu ruhlarımızdan silmektir.",
+    "author": "Pablo Picasso",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "Spanish (English translation)"
+  },
+  {
+    "id": 271,
+    "text": "Leadership is solving problems.",
+    "textTr": "Liderlik, sorun çözmektir.",
+    "author": "Colin Powell",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 272,
+    "text": "Opportunities don't happen. You create them.",
+    "textTr": "Fırsatlar oluşmaz; sen yaratırsın.",
+    "author": "Chris Grosser",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 273,
+    "text": "What you get by achieving your goals is not as important as what you become by achieving your goals.",
+    "textTr": "Hedeflerine ulaşarak elde ettiğin şey değil; bu süreçte kim olduğun önemlidir.",
+    "author": "Zig Ziglar",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 274,
+    "text": "All the world’s a stage, and all the men and women merely players.",
+    "textTr": "Bütün dünya bir sahnedir ve tüm erkekler ile kadınlar sadece birer oyuncudur.",
+    "author": "William Shakespeare",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 275,
+    "text": "The secret of change is to focus all of your energy not on fighting the old, but on building the new.",
+    "textTr": "Değişimin sırrı, tüm enerjini eskiyle savaşmaya değil, yeniyi inşa etmeye odaklamaktır.",
+    "author": "Sokrates’e atıf (modern yorum)",
+    "category": "Bilgelik & Felsefe",
+    "language": "Greek (English translation)"
+  },
+  {
+    "id": 276,
+    "text": "Do not wait for leaders; do it alone, person to person.",
+    "textTr": "Liderleri bekleme; tek başına yap, bire bir yap.",
+    "author": "Mother Teresa",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 277,
+    "text": "Success is not in what you have, but who you are.",
+    "textTr": "Başarı, sahip olduklarında değil, kim olduğundadır.",
+    "author": "Bo Bennett",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 278,
+    "text": "To invent, you need a good imagination and a pile of junk.",
+    "textTr": "Bir şey icat etmek için iyi bir hayal gücü ve bir yığın hurda yeterlidir.",
+    "author": "Thomas Edison",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 279,
+    "text": "Art is the lie that enables us to realize the truth.",
+    "textTr": "Sanat, gerçeği fark etmemizi sağlayan yalandır.",
+    "author": "Pablo Picasso",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "Spanish (English translation)"
+  },
+  {
+    "id": 280,
+    "text": "A genuine leader is not a searcher for consensus but a molder of consensus.",
+    "textTr": "Gerçek bir lider, uzlaşma arayan değil, uzlaşmayı şekillendirendir.",
+    "author": "Martin Luther King Jr.",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 281,
+    "text": "Business opportunities are like buses, there’s always another one coming.",
+    "textTr": "Fırsatlar otobüs gibidir; her zaman bir sonraki gelir.",
+    "author": "Richard Branson",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 282,
+    "text": "The way to get started is to quit talking and begin doing.",
+    "textTr": "Başlamanın yolu konuşmayı bırakmak ve yapmaya başlamaktır.",
+    "author": "Walt Disney",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 283,
+    "text": "Limit your 'always' and your 'never'.",
+    "textTr": "'Her zaman' ve 'asla' kelimelerini sınırlayın.",
+    "author": "Amy Poehler",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 284,
+    "text": "There is no friend as loyal as a book.",
+    "textTr": "Kitap kadar sadık bir dost yoktur.",
+    "author": "Ernest Hemingway",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 285,
+    "text": "To improve is to change; to be perfect is to change often.",
+    "textTr": "Gelişmek değişmektir; mükemmel olmak sıkça değişmeyi gerektirir.",
+    "author": "Winston Churchill",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 286,
+    "text": "Success is how high you bounce when you hit bottom.",
+    "textTr": "Başarı, dibe vurduğunda ne kadar yükseğe sıçradığındır.",
+    "author": "George S. Patton",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 287,
+    "text": "A person who sees a problem is a human being; a person who finds a solution is a visionary.",
+    "textTr": "Sorunu gören insandır; çözümü bulan vizyonerdir.",
+    "author": "Theodore Levitt",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 288,
+    "text": "The harder the conflict, the more glorious the triumph.",
+    "textTr": "Çatışma ne kadar zorsa, zafer o kadar görkemlidir.",
+    "author": "Thomas Paine",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 289,
+    "text": "Act as if what you do makes a difference. It does.",
+    "textTr": "Yaptığın şey fark yaratıyormuş gibi davran. Çünkü yaratıyor.",
+    "author": "William James",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 290,
+    "text": "Genius is one percent inspiration and ninety-nine percent perspiration.",
+    "textTr": "Deha, yüzde bir ilham, yüzde doksan dokuz terdir.",
+    "author": "Thomas Edison",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 291,
+    "text": "Art enables us to find ourselves and lose ourselves at the same time.",
+    "textTr": "Sanat, hem kendimizi bulmamızı hem de kendimizi kaybetmemizi sağlar.",
+    "author": "Thomas Merton",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "English"
+  },
+  {
+    "id": 292,
+    "text": "Leadership is unlocking people's potential to become better.",
+    "textTr": "Liderlik, insanların potansiyellerini açığa çıkarmaktır.",
+    "author": "Bill Bradley",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 293,
+    "text": "If you don’t build your dream, someone else will hire you to build theirs.",
+    "textTr": "Eğer kendi hayalini inşa etmezsen, başkası seni kendi hayalini inşa etmen için işe alır.",
+    "author": "Tony Gaskins",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 294,
+    "text": "Don’t let your fears decide your future.",
+    "textTr": "Korkularının geleceğine karar vermesine izin verme.",
+    "author": "Shalane Flanagan",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 295,
+    "text": "Art washes away from the soul the dust of everyday life.",
+    "textTr": "Sanat, ruhun günlük hayatın tozunu siler.",
+    "author": "Pablo Picasso",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "Spanish (English translation)"
+  },
+  {
+    "id": 296,
+    "text": "Leaders think and talk about the solutions. Followers think and talk about the problems.",
+    "textTr": "Liderler çözümleri düşünür ve konuşur; takipçiler problemleri.",
+    "author": "Brian Tracy",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  },
+  {
+    "id": 297,
+    "text": "Do not be embarrassed by your failures, learn from them and start again.",
+    "textTr": "Başarısızlıklarından utanma; onlardan öğren ve yeniden başla.",
+    "author": "Richard Branson",
+    "category": "İş Dünyası & Girişimciler",
+    "language": "English"
+  },
+  {
+    "id": 298,
+    "text": "You were born to be a player. You were meant to be here. This moment is yours.",
+    "textTr": "Bir oyuncu olmak için doğdun. Burada olman gerekiyordu. Bu an senindir.",
+    "author": "Herb Brooks",
+    "category": "Motivasyon & Kişisel Gelişim",
+    "language": "English"
+  },
+  {
+    "id": 299,
+    "text": "Art is not what you see, but what you make others see.",
+    "textTr": "Sanat gördüğün şey değil; başkalarına gösterdiğindir.",
+    "author": "Edgar Degas",
+    "category": "Edebiyatçılar & Sanatçılar",
+    "language": "French (English translation)"
+  },
+  {
+    "id": 300,
+    "text": "The function of leadership is to produce more leaders, not more followers.",
+    "textTr": "Liderliğin işlevi, daha fazla lider yetiştirmektir; daha fazla takipçi değil.",
+    "author": "Ralph Nader",
+    "category": "Liderler & Devrimciler",
+    "language": "English"
+  }
+]

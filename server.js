@@ -1,4 +1,7 @@
-import 'dotenv/config';
+import dotenv from 'dotenv';
+// Load default .env first, then override with .env.local if present
+dotenv.config();
+dotenv.config({ path: '.env.local', override: true });
 import express from 'express';
 import presign from './api/presign.js';
 import list from './api/list.js';
