@@ -19,6 +19,14 @@ export default defineConfig(({ mode }) => ({
     },
     watch: {
       usePolling: true
+    },
+    // Proxy local frontend to local serverless functions
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3002',
+        changeOrigin: true,
+        secure: false
+      }
     }
   },
   build: {
